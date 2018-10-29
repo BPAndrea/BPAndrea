@@ -61,16 +61,18 @@ public class VariableMutation {
 
 
         int j = 1521;
-        boolean div3=false;
+        /*boolean div3=false;
         if (j%3==0)
-              div3=true;
+              div3=true;*/
+        //egyszerűbben:
+        boolean div3= (j%3==0);
         boolean div5=false;
         if (j%5==0)
             div5=true;
 
         // tell if j is dividable by 3 or 5 (print as a boolean)
         System.out.println(div3 || div5);
-        //System.out.println(div3);
+        System.out.println(div3);
         //System.out.println(div5);
 
         String k = "Apple";
