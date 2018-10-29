@@ -3,8 +3,9 @@ public class Swap {
         // Swap the values of the variables
         int a = 123;
         int b = 526;
+        int temp=a;
         a=b;
-        b=123;
+        b=temp;
 
         System.out.println("a értéke: "+a);
         System.out.println("b értéke: "+b);
