@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="632ed103-c83d-4ab1-8f21-5256bf99feef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/PartyIndicator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/IWontCheatOnTheExam.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3147" />
+          <entry key="java" value="3192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3147" />
+          <entry key="JAVA" value="3192" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="16" />
+          <entry key="java" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="16" />
+          <entry key="JAVA" value="17" />
         </counts>
       </usages-collector>
     </session>
@@ -52,15 +52,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="119">
               <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/DefineBasicInfo.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="34" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -110,11 +101,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/PartyIndicator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="172">
               <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/IWontCheatOnTheExam.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -168,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/OddEven.java" />
         <option value="$PROJECT_DIR$/src/OneTwoALot.java" />
         <option value="$PROJECT_DIR$/src/PartyIndicator.java" />
+        <option value="$PROJECT_DIR$/src/IWontCheatOnTheExam.java" />
       </list>
     </option>
   </component>
@@ -177,8 +178,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-17" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="682" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -211,7 +212,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540825873935" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540826215576" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -225,9 +226,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PartyIndicator">
-    <configuration name="HelloUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloUser" />
+  <component name="RunManager" selected="Application.IWontCheatOnTheExam">
+    <configuration name="IWontCheatOnTheExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="IWontCheatOnTheExam" />
       <module name="day1_project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -262,19 +263,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.HelloUser" />
       <item itemvalue="Application.MileToKmConverter" />
       <item itemvalue="Application.OddEven" />
       <item itemvalue="Application.OneTwoALot" />
       <item itemvalue="Application.PartyIndicator" />
+      <item itemvalue="Application.IWontCheatOnTheExam" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.IWontCheatOnTheExam" />
         <item itemvalue="Application.PartyIndicator" />
         <item itemvalue="Application.OneTwoALot" />
         <item itemvalue="Application.OddEven" />
         <item itemvalue="Application.MileToKmConverter" />
-        <item itemvalue="Application.HelloUser" />
       </list>
     </recent_temporary>
   </component>
@@ -288,15 +289,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540811030825</updated>
-      <workItem from="1540811036234" duration="13045000" />
+      <workItem from="1540811036234" duration="13384000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13045000" />
+    <option name="totallyTimeSpent" value="13384000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -451,6 +453,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="172">
           <caret line="23" column="48" selection-start-line="23" selection-start-column="48" selection-end-line="23" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/IWontCheatOnTheExam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="31" selection-start-line="5" selection-start-column="31" selection-end-line="5" selection-end-column="31" />
         </state>
       </provider>
     </entry>
