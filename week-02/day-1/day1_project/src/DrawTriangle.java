@@ -14,15 +14,13 @@ public class DrawTriangle {
         Scanner input = new Scanner(System.in);
         System.out.println("Give me a number!");
         int number = input.nextInt();
-        String triangle = "";
+        //String triangle = "";
         for (int i = 1; i <= number; i++) {
-            //triangle= triangle+"*";
-            System.out.println(triangle);
-            //triangle = triangle + "*";
-            for (int j = 0; j <= number; j++) {
-                triangle = triangle + "*";
-                System.out.println(triangle);
+            for (int j = 1; j <= i; j++) {
+                //triangle = triangle + "*";
+                System.out.print("*");
             }
+            System.out.println();
         }
     }
 }
