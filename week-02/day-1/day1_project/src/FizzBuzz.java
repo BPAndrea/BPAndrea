@@ -5,8 +5,8 @@ public class FizzBuzz {
         // and for the multiples of five print “Buzz”.
         // For numbers which are multiples of both three and five print “FizzBuzz”.
         for (int i = 1; i < 101; i++) {
-            boolean a= ((i % 3) == 0);
-            boolean b= ((i % 5) == 0);
+            //boolean a= ((i % 3) == 0);
+            //boolean b= ((i % 5) == 0);
             if (((i % 3) == 0) && ((i % 5)!=0))
                 System.out.println("Fizz");
             else if (((i % 3) != 0) && ((i % 5)==0))
