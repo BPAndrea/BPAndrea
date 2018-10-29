@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="632ed103-c83d-4ab1-8f21-5256bf99feef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/MultiplicationTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CountFromTo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -25,22 +25,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3362" />
+          <entry key="java" value="3492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3362" />
+          <entry key="JAVA" value="3492" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="19" />
+          <entry key="java" value="20" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="19" />
+          <entry key="JAVA" value="20" />
         </counts>
       </usages-collector>
     </session>
@@ -119,20 +119,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MultiplicationTable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+            <state relative-caret-position="221">
+              <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SecondsInADay.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+            <state relative-caret-position="323">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -171,6 +171,7 @@
         <option value="$PROJECT_DIR$/src/IWontCheatOnTheExam.java" />
         <option value="$PROJECT_DIR$/src/PrintEven.java" />
         <option value="$PROJECT_DIR$/src/MultiplicationTable.java" />
+        <option value="$PROJECT_DIR$/src/CountFromTo.java" />
       </list>
     </option>
   </component>
@@ -180,8 +181,8 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="682" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-17" />
     <option name="width" value="683" />
     <option name="height" value="728" />
   </component>
@@ -214,7 +215,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540827160477" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540827714528" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -228,7 +229,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MultiplicationTable">
+  <component name="RunManager" selected="Application.CountFromTo">
+    <configuration name="CountFromTo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CountFromTo" />
+      <module name="day1_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="IWontCheatOnTheExam" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="IWontCheatOnTheExam" />
       <module name="day1_project" />
@@ -238,13 +246,6 @@
     </configuration>
     <configuration name="MultiplicationTable" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MultiplicationTable" />
-      <module name="day1_project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OneTwoALot" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="OneTwoALot" />
       <module name="day1_project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -265,19 +266,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.OneTwoALot" />
       <item itemvalue="Application.PartyIndicator" />
       <item itemvalue="Application.IWontCheatOnTheExam" />
       <item itemvalue="Application.PrintEven" />
       <item itemvalue="Application.MultiplicationTable" />
+      <item itemvalue="Application.CountFromTo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountFromTo" />
         <item itemvalue="Application.MultiplicationTable" />
         <item itemvalue="Application.PrintEven" />
         <item itemvalue="Application.IWontCheatOnTheExam" />
         <item itemvalue="Application.PartyIndicator" />
-        <item itemvalue="Application.OneTwoALot" />
       </list>
     </recent_temporary>
   </component>
@@ -291,22 +292,22 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1540811030825</updated>
-      <workItem from="1540811036234" duration="14314000" />
+      <workItem from="1540811036234" duration="14863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14314000" />
+    <option name="totallyTimeSpent" value="14863000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="682" y="0" width="683" height="728" extended-state="0" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.10754414" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.050680786" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3277311" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -315,7 +316,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33781514" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -473,8 +474,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MultiplicationTable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="24" column="52" selection-start-line="24" selection-start-column="52" selection-end-line="24" selection-end-column="52" />
+        <state relative-caret-position="221">
+          <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="20" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/CountFromTo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
         </state>
       </provider>
     </entry>
