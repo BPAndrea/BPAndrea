@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="632ed103-c83d-4ab1-8f21-5256bf99feef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../day-2/src/Greet2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
