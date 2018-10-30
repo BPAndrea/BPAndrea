@@ -11,16 +11,20 @@ public class DiagonalMatrix13 {
     //
     // - Print this two dimensional array to the output
     public static void main(String[] args) {
-//        int[][] multi = new int[4][4];
-//        for(int i=0; i<multi.length; i++){
-//            for(int j=0; j<multi[i].length; j++){
-//                if(i==j)
-//                multi[i]= 1;
-//            }
-//        }
-//        System.out.println(Arrays.toString(multi));
+        int[][] multi = new int[4][4];
+        for (int i = 0; i < multi.length; i++) {
+            for (int j = 0; j < multi[i].length; j++) {
+                if (i == j) {
+                    multi[i][j]=1;
+                     }
+
+                    System.out.print(multi[i][j]);
+                }
+                System.out.println();
+            }
+         }
     }
-}
+
 //for(int i=0; i<multiArray.length; i++){
 //            for (int j=0; j<multiArray[i].length; j++){
-//                multiArray[i][j]= i + " " + j;
+//                multiArray[i][j]={1} i + " " + j;
