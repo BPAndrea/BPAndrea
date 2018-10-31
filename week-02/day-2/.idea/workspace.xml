@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bcb69e-1318-4fa2-a18f-215654ed313c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../day-1/day1_project/src/ConditionalVariableMutation22.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../day-1/day1_project/src/PrintBigger20.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-1/day1_project/src/DrawPyramid29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-1/day1_project/src/GuessTheNumber33.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-1/day1_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/day1_project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -214,7 +214,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540981705776" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540992241340" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunDashboard">
@@ -302,7 +302,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3570348" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
