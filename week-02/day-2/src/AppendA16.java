@@ -14,8 +14,11 @@ public class AppendA16 {
         String[] animals = {"koal", "pand", "zebr"};
         //System.out.println(Arrays.toString(animals));
         // create new array from old array and allocate one more element
-        animals = Arrays.copyOf(animals, animals.length + 1);
-        animals[3] = "a";
+//        animals = Arrays.copyOf(animals, animals.length + 1);
+//        animals[3] = "a";
+//        System.out.println(Arrays.toString(animals));
+        for (int i=0; i<animals.length; i++)
+            animals[i]=animals[i]+"a";
         System.out.println(Arrays.toString(animals));
     }
 }

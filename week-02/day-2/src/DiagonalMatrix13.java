@@ -17,7 +17,6 @@ public class DiagonalMatrix13 {
                 if (i == j) {
                     multi[i][j]=1;
                      }
-
                     System.out.print(multi[i][j]);
                 }
                 System.out.println();
@@ -25,6 +24,3 @@ public class DiagonalMatrix13 {
          }
     }
 
-//for(int i=0; i<multiArray.length; i++){
-//            for (int j=0; j<multiArray[i].length; j++){
-//                multiArray[i][j]={1} i + " " + j;
