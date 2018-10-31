@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="632ed103-c83d-4ab1-8f21-5256bf99feef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DrawPyramid29.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/GuessTheNumber33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DrawChessTable35.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,39 +27,30 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="5677" />
+          <entry key="java" value="5898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="5677" />
+          <entry key="JAVA" value="5898" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="iml" value="1" />
-          <entry key="java" value="30" />
+          <entry key="java" value="31" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="30" />
+          <entry key="JAVA" value="31" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/PrintEven.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Cuboid.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,20 +99,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/DrawPyramid29.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="-437">
+              <caret line="1" selection-end-line="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/GuessTheNumber33.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/GuessTheNumber33.java">
+        <entry file="file://$PROJECT_DIR$/src/DrawChessTable35.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+            <state relative-caret-position="221">
+              <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
             </state>
           </provider>
         </entry>
@@ -191,6 +186,7 @@
         <option value="$PROJECT_DIR$/src/ConditionalVariableMutation22.java" />
         <option value="$PROJECT_DIR$/src/DrawPyramid29.java" />
         <option value="$PROJECT_DIR$/src/GuessTheNumber33.java" />
+        <option value="$PROJECT_DIR$/src/DrawChessTable35.java" />
       </list>
     </option>
   </component>
@@ -236,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540992880596" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540994366531" />
     <property name="last_opened_file_path" value="D:/0. Greenfox/Java_kodok/ArraysFunctions" />
   </component>
   <component name="RunDashboard">
@@ -251,9 +247,16 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.GuessTheNumber33">
+  <component name="RunManager" selected="Application.DrawChessTable35">
     <configuration name="ConditionalVariableMutation22" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ConditionalVariableMutation22" />
+      <module name="day1_project" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DrawChessTable35" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DrawChessTable35" />
       <module name="day1_project" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -280,27 +283,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrintBigger20" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="PrintBigger20" />
-      <module name="day1_project" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
-      <item itemvalue="Application.PrintBigger20" />
       <item itemvalue="Application.ConditionalVariableMutation22" />
       <item itemvalue="Application.DrawPyramid29" />
       <item itemvalue="Application.DrawTriangle" />
       <item itemvalue="Application.GuessTheNumber33" />
+      <item itemvalue="Application.DrawChessTable35" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DrawChessTable35" />
         <item itemvalue="Application.GuessTheNumber33" />
         <item itemvalue="Application.DrawPyramid29" />
         <item itemvalue="Application.DrawTriangle" />
         <item itemvalue="Application.ConditionalVariableMutation22" />
-        <item itemvalue="Application.PrintBigger20" />
       </list>
     </recent_temporary>
   </component>
@@ -316,16 +312,15 @@
       <updated>1540811030825</updated>
       <workItem from="1540811036234" duration="22165000" />
       <workItem from="1540888051843" duration="1925000" />
-      <workItem from="1540930083668" duration="11665000" />
+      <workItem from="1540930083668" duration="13274000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35755000" />
+    <option name="totallyTimeSpent" value="37364000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2322239" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -336,7 +331,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.2667758" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.492635" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934534" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -345,7 +340,7 @@
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.32733223" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Messages" order="11" visible="true" weight="0.32405892" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32405892" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -549,16 +544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/DrawPyramid29.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="26" column="18" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/ConditionalVariableMutation22.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="986">
@@ -580,10 +565,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawPyramid29.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-437">
+          <caret line="1" selection-end-line="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/GuessTheNumber33.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="47" column="25" selection-start-line="47" selection-start-column="25" selection-end-line="47" selection-end-column="25" />
+        <state relative-caret-position="306">
+          <caret line="27" column="72" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DrawChessTable35.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
         </state>
       </provider>
     </entry>
