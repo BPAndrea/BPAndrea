@@ -41,6 +41,17 @@ public class ConditionalVariableMutation22 {
         ;
         System.out.println(c);
 
+        //Solution Nr. 2:
+        c = 123;
+        credits = 100;
+        isBonus = false;
+        if (credits >= 50 && (isBonus == false)) {
+            c -= 2;
+        } else if (credits < 50 && (isBonus == false)) {
+            c--;
+        }
+        System.out.println(c);
+
 
         int d = 8;
         int time = 120;

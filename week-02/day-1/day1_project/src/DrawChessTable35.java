@@ -11,7 +11,7 @@ public class DrawChessTable35 {
 // % % % %
 //  % % % %
 //
-        int sizeOfTable = 9;
+/*        int sizeOfTable = 9;
         for (int i = 1; i <= sizeOfTable; i++) {
             if ((i % 2) != 0) {
                 for (int j = 1; j <= sizeOfTable; j++) {
@@ -35,7 +35,33 @@ public class DrawChessTable35 {
                 System.out.println();
             }
 
-        }
+        }*/
+        //Solution Nr. 2
+       /* int sizeOfTable = 9;
+        for (int i = 1; i <= sizeOfTable; i++) {
+            for (int j = 1; j <= sizeOfTable; j++) {
+                if ((i + j) % 2 == 0)
+                    System.out.print("%");
+                else
+                    System.out.print(" ");
 
+            }
+            System.out.println();
+            }
+*/
+        //Solution Nr. 3
+        int sizeOfTable = 9;
+        for (int i = 1; i <= sizeOfTable; i++) {
+            for (int j = 1; j <= sizeOfTable; j++) {
+                if (i % 2 != 0 && j % 2 != 0)
+                    System.out.print("%");
+                else if (i % 2 == 0 && j % 2 == 0)
+                    System.out.print("%");
+                else
+                    System.out.print(" ");
+            }
+            System.out.println();
+
+        }
     }
 }

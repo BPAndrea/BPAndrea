@@ -6,9 +6,11 @@
   <component name="ChangeListManager">
     <list default="true" id="99bcb69e-1318-4fa2-a18f-215654ed313c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../day-1/day1_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/day1_project/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../day-1/day1_project/src/DrawPyramid29.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/day1_project/src/BMI.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/day1_project/src/BMI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/day1_project/src/ConditionalVariableMutation22.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/day1_project/src/ConditionalVariableMutation22.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/day1_project/src/DrawChessTable35.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/day1_project/src/DrawChessTable35.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../day-1/day1_project/src/ParametricAverage34.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/day1_project/src/ParametricAverage34.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Unique.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -184,7 +186,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541101665032" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541159540723" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-1/day1_project" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -266,16 +268,15 @@
       <workItem from="1540896903745" duration="20076000" />
       <workItem from="1540930070249" duration="8882000" />
       <workItem from="1541015791441" duration="79000" />
-      <workItem from="1541016013789" duration="6149000" />
+      <workItem from="1541016013789" duration="6649000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35186000" />
+    <option name="totallyTimeSpent" value="35686000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22692889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
