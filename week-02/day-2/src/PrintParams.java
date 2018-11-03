@@ -15,7 +15,7 @@ public class PrintParams {
     public static String printParams(String... args){
         String temp="";
             for(int i=0; i<args.length; i++){
-              temp=temp+args[i]+", ";
+              temp+=args[i]+", ";
 
         }
         return temp;

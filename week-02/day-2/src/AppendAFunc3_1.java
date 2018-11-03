@@ -10,6 +10,7 @@ public class AppendAFunc3_1 {
     //   appends an 'a' character to its end and returns with a string
     // - Print the result of `appendAFunc(typo)
     public static String appendAFunc(String input){
+
         return input + "a";
     }
 

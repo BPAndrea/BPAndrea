@@ -13,7 +13,7 @@ public class Greet2 {
     }
 
     public static void greet(String al) {
-        System.out.println("Greeting dear, " + al);
+        System.out.println("Greetings dear, " + al);
 
     }
 }

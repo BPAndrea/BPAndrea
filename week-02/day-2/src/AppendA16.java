@@ -18,7 +18,7 @@ public class AppendA16 {
 //        animals[3] = "a";
 //        System.out.println(Arrays.toString(animals));
         for (int i=0; i<animals.length; i++)
-            animals[i]=animals[i]+"a";
+            animals[i]+="a";
         System.out.println(Arrays.toString(animals));
     }
 }
