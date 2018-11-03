@@ -7,15 +7,6 @@
     <list default="true" id="632ed103-c83d-4ab1-8f21-5256bf99feef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/AppendA16.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/AppendA16.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/AppendAFunc3_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/AppendAFunc3_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/DoubleItems14.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/DoubleItems14.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/Doubling1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/Doubling1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/Factorio.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/Factorio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/Greet2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/Greet2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/IncrementElement11.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/IncrementElement11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/PrintParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/PrintParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../day-2/src/Sum4.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/src/Sum4.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -251,7 +242,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541195793076" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541284405121" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.gitignore" />
   </component>
   <component name="RunDashboard">
