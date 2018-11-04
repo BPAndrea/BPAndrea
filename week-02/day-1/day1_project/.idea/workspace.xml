@@ -5,9 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="632ed103-c83d-4ab1-8f21-5256bf99feef" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/DrawDiamond30.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Substring36.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../day-2/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -255,7 +252,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541339016160" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541350782098" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../.gitignore" />
   </component>
   <component name="RunDashboard">
@@ -337,12 +334,12 @@
       <workItem from="1540888051843" duration="1925000" />
       <workItem from="1540930083668" duration="14186000" />
       <workItem from="1541015793802" duration="64000" />
-      <workItem from="1541101568970" duration="18492000" />
+      <workItem from="1541101568970" duration="19087000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56832000" />
+    <option name="totallyTimeSpent" value="57427000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
