@@ -15,7 +15,7 @@ public class Bubble_SortThatList {
         int [] bubble={34, 12, 24, 9, 5};
         int [] result= sortThatList(bubble);
         System.out.println(Arrays.toString(result));
-        
+
         //1 lépésben a fenti két sor:
         // System.out.println(Arrays.toString(sortThatList(bubble)));
     }
