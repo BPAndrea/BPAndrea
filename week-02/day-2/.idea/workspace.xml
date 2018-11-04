@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="99bcb69e-1318-4fa2-a18f-215654ed313c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../day-1/day1_project/src/DrawDiamond30.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../day-1/day1_project/src/Substring36.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../day-1/day1_project/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../day-1/day1_project/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -228,7 +230,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541284405012" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541339016081" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../day-1/day1_project" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
@@ -310,12 +312,12 @@
       <workItem from="1540896903745" duration="20076000" />
       <workItem from="1540930070249" duration="8882000" />
       <workItem from="1541015791441" duration="79000" />
-      <workItem from="1541016013789" duration="16631000" />
+      <workItem from="1541016013789" duration="17125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45668000" />
+    <option name="totallyTimeSpent" value="46162000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
