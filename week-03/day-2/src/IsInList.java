@@ -14,6 +14,6 @@ public class IsInList {
     public static boolean checkNums(ArrayList<Integer> input, ArrayList<Integer> input2) {
         return (input.containsAll(input2));
     }
-       
+
 }
 

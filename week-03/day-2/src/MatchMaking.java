@@ -11,13 +11,15 @@ public class MatchMaking {
         System.out.println(makingMatches(girls, boys));
     }
 
-    public static ArrayList makingMatches(ArrayList girls, ArrayList boys) {
+    public static ArrayList<String> makingMatches(ArrayList<String> girls, ArrayList<String> boys) {
         ArrayList<String> listCombined = new ArrayList<>();
 
-        // .get function can be used for Strings only-- this is why you have to cast it
+
         for (int i = 0; i < girls.size(); i++) {
-            listCombined.add((String) girls.get(i));
-            listCombined.add((String) boys.get(i));
+            // .get function can be used for Strings only-- this is why you have to cast it
+            // listCombined.add((String) girls.get(i));
+            listCombined.add(girls.get(i));
+            listCombined.add(boys.get(i));
         }
         return listCombined;
     }

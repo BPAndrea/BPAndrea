@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="47520ac8-7a55-40c4-b4a5-dc90f4dde7b5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/IsInList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/IsInList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MatchMaking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/MatchMaking.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,12 +32,12 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="3371" />
+          <entry key="java" value="3402" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3371" />
+          <entry key="JAVA" value="3402" />
         </counts>
       </usages-collector>
     </session>
@@ -56,11 +57,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/MatchMaking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
+            <state relative-caret-position="340">
+              <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#292#300#0" expanded="true" />
@@ -107,11 +108,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/IsInList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+            <state relative-caret-position="274">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -187,7 +188,6 @@
         <option value="$PROJECT_DIR$/src/ToDoPrint.java" />
         <option value="$PROJECT_DIR$/src/Reverse.java" />
         <option value="$PROJECT_DIR$/src/SolarSystem.java" />
-        <option value="$PROJECT_DIR$/src/MatchMaking.java" />
         <option value="$PROJECT_DIR$/src/AppendLetter.java" />
         <option value="$PROJECT_DIR$/src/Candyshop.java" />
         <option value="$PROJECT_DIR$/src/ElementFinder.java" />
@@ -195,6 +195,7 @@
         <option value="$PROJECT_DIR$/src/Calculator.java" />
         <option value="$PROJECT_DIR$/src/HeWillNever.java" />
         <option value="$PROJECT_DIR$/src/IsInList.java" />
+        <option value="$PROJECT_DIR$/src/MatchMaking.java" />
       </list>
     </option>
   </component>
@@ -235,7 +236,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541540471321" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541540734587" />
     <property name="last_opened_file_path" value="D:/0. Greenfox/Java_kodok/Basics" />
   </component>
   <component name="RunDashboard">
@@ -250,16 +251,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.IsInList">
+  <component name="RunManager" selected="Application.MatchMaking">
     <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Calculator" />
-      <module name="day-2" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ElementFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ElementFinder" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -279,6 +273,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MatchMaking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatchMaking" />
+      <module name="day-2" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="QuoteSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="QuoteSwap" />
       <module name="day-2" />
@@ -287,19 +288,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.ElementFinder" />
       <item itemvalue="Application.IsInList" />
       <item itemvalue="Application.QuoteSwap" />
       <item itemvalue="Application.Calculator" />
       <item itemvalue="Application.HeWillNever" />
+      <item itemvalue="Application.MatchMaking" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MatchMaking" />
         <item itemvalue="Application.IsInList" />
         <item itemvalue="Application.HeWillNever" />
         <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.QuoteSwap" />
-        <item itemvalue="Application.ElementFinder" />
       </list>
     </recent_temporary>
   </component>
@@ -313,12 +314,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541501694477</updated>
-      <workItem from="1541501700990" duration="19392000" />
+      <workItem from="1541501700990" duration="19691000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19392000" />
+    <option name="totallyTimeSpent" value="19691000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -329,7 +330,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1172466" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.1172466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.3289689" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
@@ -338,7 +339,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3289689" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -353,6 +354,36 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Image Layers" order="0" />
+      <window_info id="Designer" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Favorites" order="4" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="5" visible="true" weight="0.1172466" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="3" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Messages" order="4" weight="0.3289689" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="7" visible="true" weight="0.3289689" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Database" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Maven Projects" order="5" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="6" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="7" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="8" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -444,18 +475,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/MatchMaking.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#292#300#0" expanded="true" />
-            <element signature="e#401#409#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/QuoteSwap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -498,10 +517,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/IsInList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="79" selection-start-line="13" selection-start-column="79" selection-end-line="13" selection-end-column="79" />
+        <state relative-caret-position="274">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/MatchMaking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="43" selection-start-line="20" selection-start-column="43" selection-end-line="20" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#292#300#0" expanded="true" />
+            <element signature="e#401#409#0" expanded="true" />
           </folding>
         </state>
       </provider>
