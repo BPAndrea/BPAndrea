@@ -16,7 +16,8 @@ public class QuoteSwap {
     }
 
     public static void quoteSwap(ArrayList<String> input) {
-        input.add(8, (String) input.get(2));
+        input.add(8, input.get(2));
+        //("String" is not important any more after specified <String> as ArrayList type as input parameter)
         input.set(2, (String) input.get(5));
         input.set(5, (String) input.get(8));
         input.remove(8);
