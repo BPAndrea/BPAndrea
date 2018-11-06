@@ -24,7 +24,7 @@ public class AdvancedBubble_SortThatList {
     }
 
     public static Integer[] sortThatList(Integer[] input, boolean descending) {
-        System.out.println(descending);
+        //System.out.println(descending);
         if (descending == true) {
             Arrays.sort(input, Collections.reverseOrder());
         } else {
