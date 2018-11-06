@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="47520ac8-7a55-40c4-b4a5-dc90f4dde7b5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Candyshop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ElementFinder.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -22,37 +22,28 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="java" value="10" />
+          <entry key="java" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="JAVA" value="10" />
+          <entry key="JAVA" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1943" />
+          <entry key="java" value="2023" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1943" />
+          <entry key="JAVA" value="2023" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/SimpleReplace.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/UrlFixer.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -128,7 +119,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Candyshop.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="291">
@@ -136,6 +127,18 @@
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#544#552#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/ElementFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -177,6 +180,7 @@
         <option value="$PROJECT_DIR$/src/MatchMaking.java" />
         <option value="$PROJECT_DIR$/src/AppendLetter.java" />
         <option value="$PROJECT_DIR$/src/Candyshop.java" />
+        <option value="$PROJECT_DIR$/src/ElementFinder.java" />
       </list>
     </option>
   </component>
@@ -222,7 +226,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541515395231" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541515886229" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -236,7 +240,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Candyshop">
+  <component name="RunManager" selected="Application.ElementFinder">
     <configuration name="AppendLetter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="AppendLetter" />
       <module name="day-2" />
@@ -251,15 +255,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MatchMaking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MatchMaking" />
+    <configuration name="ElementFinder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ElementFinder" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Reverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reverse" />
+    <configuration name="MatchMaking" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MatchMaking" />
       <module name="day-2" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -273,19 +277,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Reverse" />
       <item itemvalue="Application.SolarSystem" />
       <item itemvalue="Application.MatchMaking" />
       <item itemvalue="Application.AppendLetter" />
       <item itemvalue="Application.Candyshop" />
+      <item itemvalue="Application.ElementFinder" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ElementFinder" />
         <item itemvalue="Application.Candyshop" />
         <item itemvalue="Application.AppendLetter" />
         <item itemvalue="Application.MatchMaking" />
         <item itemvalue="Application.SolarSystem" />
-        <item itemvalue="Application.Reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -299,12 +303,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541501694477</updated>
-      <workItem from="1541501700990" duration="11009000" />
+      <workItem from="1541501700990" duration="11496000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11009000" />
+    <option name="totallyTimeSpent" value="11496000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -439,6 +443,16 @@
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#544#552#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ElementFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="29" selection-end-line="17" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
