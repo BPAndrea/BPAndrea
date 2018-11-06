@@ -7,9 +7,11 @@ public class SimpleReplace {
         // Please fix it for me!
         // Expected output: In a galaxy far far away
 
-        //Megjegyzés: Ha a későbbiekben szükség van rá, és le kell menteni a tartalmát, akkor új stringbe kell menteni:
-        // String example2=example.replace("dishwasher", "galaxy");
 
-        System.out.println(example.replace("dishwasher", "galaxy"));
+        example=example.replace("dishwasher", "galaxy");
+        System.out.println(example);
+
+        //Solution Nr. 2
+        // System.out.println(example.replace("dishwasher", "galaxy"));
     }
 }
