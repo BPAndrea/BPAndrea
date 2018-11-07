@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="47520ac8-7a55-40c4-b4a5-dc90f4dde7b5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../day-3/src/LineInTheMiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/../day-3/src/LineInTheMiddle.java" afterDir="false" />
-    </list>
+    <list default="true" id="47520ac8-7a55-40c4-b4a5-dc90f4dde7b5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -226,7 +224,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541582573637" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541583789027" />
     <property name="last_opened_file_path" value="D:/0. Greenfox/Java_kodok/Basics" />
   </component>
   <component name="RunDashboard">
