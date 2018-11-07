@@ -16,7 +16,7 @@ public class Checkerboard {
         graphics.fillRect(0, 0, WIDTH, HEIGHT);
 
         // Color red tiles.
-        graphics.setColor(Color.RED);
+        graphics.setColor(Color.WHITE);
         for (int i = 0; i < 8; i++) {
             for (int j = 0; j < 8; j++) {
                 if (i % 2 == j % 2) {
