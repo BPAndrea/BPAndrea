@@ -1,4 +1,4 @@
-/*import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -17,66 +17,30 @@ public class SubInt {
         //  should print: `[0, 1, 4]`
         //System.out.println(subInt(9, new int[] {1, 11, 34, 52, 61}));
         //  should print: '[]'
-        ArrayList<Integer> listArray = new ArrayList<>(Arrays.asList(1, 11, 34, 52, 61));
-        Integer number=1;
-        findNumber(number, listArray);
+        int[] arr = {1, 11, 34, 52, 61};
+        int findMe = 1;
+        int findMe2=9;
+
+        System.out.println(findNumber(findMe, arr));
+        System.out.println(findNumber(findMe2, arr));
     }
 
-    public static void findNumber(Integer number, ArrayList<Integer> input) {
-
-
-
-
-        //ArrayList<Integer> listArray = new ArrayList<Integer>(Arrays.asList(list));
-
-
-
-        ArrayList<Integer> result=new ArrayList<>();
-
-       *//* for (int i = 0; i < listArray.size(); i++) {
-            ArrayList<Integer> subList1 = new ArrayList<Integer>(listArray.subList(i, i));
-            if (subList1.contains(number)){
-                result.add(subList1)*//*
-
+    public static ArrayList<Integer> findNumber(int findMe, int[] arr) {
+        ArrayList<Integer> toReturn=new ArrayList<>();
+        ArrayList<Integer> rest=new ArrayList<>();
+        for (int i = 0; i <arr.length ; i++) {
+            if(arr[i]%10==findMe){
+                toReturn.add(i);
+            }else if ((int)(arr[i]/10)==findMe){
+                toReturn.add(i);
+            }
         }
-
-
-        ArrayList<String> al2 = new ArrayList<String>(al.subList(1, 4));
-       // System.out.println*/
-//("SubList stored in ArrayList: " + al2);
-/*
-
-        for (int i = 0; i < listArray.size(); i++) {
-            Integer temp = listArray.get(i);
-            temp.
-        }
-
-
+        return toReturn;
     }
-
-        for(
-    int i = 0; i<listArray.size();i++)
-
-    {
-        //liArray.get(i)==listArray.contains(number)
-
-    }
-    //for (int a: list)
-    //list.add(a);
-    //listArray= Arrays.asList(list));
-
-    int[] array = {1, 2, 3, 4, 5};
-    List<Integer> list = new ArrayList<Integer>();
-        for(
-    int a :array)
-            list.add(a);
-
-
-    list
-    int[] result
-
-        return result;
 }
-}
-*/
+
+
+
+
+
 
