@@ -10,28 +10,23 @@ public class Triangles {
         // The x and y coordinates of the line's starting point
         // and draws a line from that point to the center of the canvas.
         // Fill the canvas with lines from the edges, every 20 px, to the center.
-        int sidelength=15;
-        int x1=WIDTH/2;
-        int y1=40;
-        int numberOfRow= 16;
-        for (int i =1; i <=numberOfRow ; i++) {
-            for (int j =1; j <= i; j++) {
+        int sidelength = 15;
+        int x1 = WIDTH / 2;
+        int y1 = 40;
+        int numberOfRow = 16;
+        for (int i = 1; i <= numberOfRow; i++) {
+            for (int j = 1; j <= i; j++) {
                 graphics.drawLine(x1, y1, x1 + sidelength, y1);
                 graphics.drawLine(x1, y1, x1 + (sidelength / 2), y1 - sidelength);
                 graphics.drawLine(x1 + sidelength, y1, x1 + (sidelength / 2), y1 - sidelength);
                 x1 += sidelength;
             }
-            x1=WIDTH/2;
-            x1= x1- i*(sidelength / 2);
+            x1 = WIDTH / 2;
+            x1 = x1 - i * (sidelength / 2);
             y1 += sidelength;
         }
-
-
-        //g2d.draw(new Line2D.Double(50,150,150,150 ));
-        //g2d.draw(new Line2D.Double(50,50,150,150 ));
-        //g2d.draw(new Line2D.Double(50,50,50,150 ));
-        }
-
+        
+    }
 
 
     public static void linePlay(Graphics graphics, int x, int y) {
