@@ -25,7 +25,6 @@ public class Triangles {
             x1 = x1 - i * (sidelength / 2);
             y1 += sidelength;
         }
-        
     }
 
 
