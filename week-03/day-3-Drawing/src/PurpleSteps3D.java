@@ -7,13 +7,15 @@ public class PurpleSteps3D {
     public static void mainDraw(Graphics graphics) {
         // Reproduce this:
         // [https://github.com/green-fox-academy/teaching-materials/blob/master/workshop/drawing/purple-steps-3d/r4.png]
-//            Solution Nr 1:
-//            int x=5;
-//            while (x <= 200) {
-//                graphics.setColor(new Color(162, 120, 178));
-//                graphics.fillRect(x,x,x,x);
-//                x*=2;
-//            }
+//        Solution Nr 1:
+//        int x = 10;
+//        int y=10;
+//        while (x <= 200) {
+//            graphics.setColor(new Color(162, 120, 178));
+//            graphics.fillRect(x, x, y, y);
+//            x += y;
+//            y += 15;
+//        }
         int x = 10;
         int y = 10;
         for (int i = 0; i < 8; i++) {
