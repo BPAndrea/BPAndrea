@@ -7,10 +7,6 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class EnvelopeStarNr2 {
     public static void mainDraw(Graphics graphics) {
-        // Create a line drawing function that takes 2 parameters:
-        // The x and y coordinates of the line's starting point
-        // and draws a line from that point to the center of the canvas.
-        // Fill the canvas with lines from the edges, every 20 px, to the center.
         int steps = 10;
 
         for (int i = 0; i < 16; i++) {
@@ -20,10 +16,6 @@ public class EnvelopeStarNr2 {
             graphics.drawLine((WIDTH / 2) - i * steps, HEIGHT / 2, WIDTH / 2, HEIGHT - i * steps);
             graphics.drawLine((WIDTH / 2) + i * steps, HEIGHT / 2, WIDTH / 2, HEIGHT - i * steps);
         }
-    }
-
-    public static void linePlay(Graphics graphics, int x, int y) {
-
     }
 
     // Don't touch the code below

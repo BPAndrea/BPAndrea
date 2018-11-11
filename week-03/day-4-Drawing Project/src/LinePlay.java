@@ -7,30 +7,16 @@ import static javax.swing.JFrame.EXIT_ON_CLOSE;
 
 public class LinePlay {
     public static void mainDraw(Graphics graphics) {
-        // Create a line drawing function that takes 2 parameters:
-        // The x and y coordinates of the line's starting point
-        // and draws a line from that point to the center of the canvas.
-        // Fill the canvas with lines from the edges, every 20 px, to the center.
-
-        for (int i = 0; i <15 ; i++) {
+        for (int i = 0; i < 15; i++) {
 
             graphics.setColor(Color.MAGENTA);
-            graphics.drawLine((WIDTH / 2) - i*(WIDTH / 16), 0, WIDTH, (HEIGHT / 2)-i*(WIDTH / 16));
-            graphics.drawLine((WIDTH / 2) + i*(WIDTH / 16), 0, WIDTH, (HEIGHT / 2)+i*(WIDTH / 16));
+            graphics.drawLine((WIDTH / 2) - i * (WIDTH / 16), 0, WIDTH, (HEIGHT / 2) - i * (WIDTH / 16));
+            graphics.drawLine((WIDTH / 2) + i * (WIDTH / 16), 0, WIDTH, (HEIGHT / 2) + i * (WIDTH / 16));
             graphics.setColor(Color.GREEN);
-            graphics.drawLine(0, (WIDTH / 2) + i*(WIDTH / 16),(WIDTH / 2)+i*(WIDTH / 16), WIDTH);
-            graphics.drawLine(0, (WIDTH / 2) - i*(WIDTH / 16),(WIDTH / 2)-i*(WIDTH / 16), WIDTH);
+            graphics.drawLine(0, (WIDTH / 2) + i * (WIDTH / 16), (WIDTH / 2) + i * (WIDTH / 16), WIDTH);
+            graphics.drawLine(0, (WIDTH / 2) - i * (WIDTH / 16), (WIDTH / 2) - i * (WIDTH / 16), WIDTH);
         }
 
-/*        int step = 20;
-        for (int i = 1; i < 16; i++) {
-
-
-            graphics.setColor(Color.GREEN);
-            graphics.drawLine(0, HEIGHT - i * step, 0 + i * step, 0);
-        }*/
-    }
-    public static void linePlay(Graphics graphics, int x, int y) {
 
     }
 
