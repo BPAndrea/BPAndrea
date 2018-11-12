@@ -15,7 +15,7 @@ public class WriteSingleLine {
 
         List<String> myName = new ArrayList();
         try { // Required by Files.write(filePath, content)
-        myName.add("Bonnyai-Pap Andrea");
+            myName.add("Bonnyai-Pap Andrea");
             // Creates a new file if not exists and overwrites it's content
             // The elements of the content lists will become the lines of the file
             Path filePath = Paths.get("assets/my-other-file.txt");
