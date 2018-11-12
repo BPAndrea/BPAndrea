@@ -1,1 +1,5 @@
-Hurrá, sikerült! - Ez egy teszt ékezettel..
+Hurrá, sikerült! - Ez egy teszt ékezettel.
+Ez egy másik sor.
+Ez megy a harmadik.
+Összesen négy.
+És most öt.
