@@ -28,6 +28,14 @@ public class Logs_IPAddresses {
            Files.lines(filePath)
                     .forEach(output -> System.out.println(output.substring(27, 38)));
           */
+
+              /*List<String> newList=new ArrayList<>();
+           Files.lines(filePath)
+                    .forEach(output -> System.out.println(output.substring(27, 38)));
+            Files.lines(filePath)
+                    .filter(output2 -> (output2.endsWith("GET /")))
+                    .forEach(output3 ->newList.add(output3));
+            System.out.println(newList.size());*/
         } catch (IOException e) {
             e.printStackTrace();
         }
