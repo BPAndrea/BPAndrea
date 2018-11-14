@@ -1,4 +1,4 @@
-package com.greenfox;
+package Animal_Farm;
 
 public class Animal {
     /* Animal
@@ -9,17 +9,6 @@ public class Animal {
      Every animal can eat() which decreases their hunger by one
      Every animal can drink() which decreases their thirst by one
      Every animal can play() which increases both by one*/
-    public static void main(String[] args) {
-        Animal cat = new Animal();
-        Animal dog = new Animal();
-
-        //Test:
-        System.out.println(cat.hunger);
-        cat.eat();
-        System.out.println(cat.hunger);
-        cat.play();
-        System.out.println(cat.hunger+ " "+cat.thirst);
-    }
 
     int hunger = 50;
     int thirst = 50;

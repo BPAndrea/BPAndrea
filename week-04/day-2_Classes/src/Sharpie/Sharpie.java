@@ -1,15 +1,7 @@
-package com.greenfox;
+package Sharpie;
 
 public class Sharpie {
-    public static void main(String[] args) {
-        Sharpie sharpie1=new Sharpie("blue", (float)1.2);
-        Sharpie sharpie2=new Sharpie("red", (float)3.2);
-        sharpie1.use();
-        System.out.println(sharpie1.inkAmount);
-        System.out.println(sharpie2.inkAmount);
 
-
-    }
 
   /*  Create Sharpie class
     We should know about each sharpie their color (which should be a string), width (which will be a floating point number),
@@ -22,6 +14,7 @@ public class Sharpie {
   String color;
   float width;
   float inkAmount=100;
+  boolean isEmpty=false;
 
   Sharpie(String color, float width){
       this.color=color;
