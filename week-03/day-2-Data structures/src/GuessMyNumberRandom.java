@@ -13,7 +13,7 @@ public class GuessMyNumberRandom {
         int guess =0;
 
         while (guess!=randomNumber && lives>=0) {
-            Scanner input1 = new Scanner(System.in);
+           // Scanner input1 = new Scanner(System.in);
             guess = input1.nextInt();
             if (guess < randomNumber) {
                 //lives--;
@@ -24,13 +24,13 @@ public class GuessMyNumberRandom {
             }
         }
 
-        while ((guess==randomNumber) || lives<0){
+       // while ((guess==randomNumber) || lives<0){
             if (guess==randomNumber) {
                 System.out.println("Congratulations. You won.");
-                break;
+               // break;
             }else {
                 System.out.println("The game is over. Sorry, you lost.");
-                break;
+               // break;
             }
         }
     }

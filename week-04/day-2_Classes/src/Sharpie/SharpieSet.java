@@ -21,8 +21,7 @@ public class SharpieSet {
     public SharpieSet() {
         sharpieSet = new ArrayList<>();
     }
-
- /*  You don't need that method if you write the next one - returning sharpieset as an ArrayList to main (that way you can use
+    /*  You don't need that method if you write the next one - returning sharpieset as an ArrayList to main (that way you can use
  all the methods for an ArrayList.
 
   public void addSharpie (Sharpie sharpie){
