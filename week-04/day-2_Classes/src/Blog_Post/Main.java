@@ -53,6 +53,7 @@ public class Main {
     for (int i = 0; i < blogInMain.blogPosts.size(); i++) {
       System.out.println(blogInMain.blogPosts.get(i).authorName);
     }
+
   }
 }
 

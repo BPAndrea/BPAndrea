@@ -32,7 +32,5 @@ public class Main {
     newSet.countUsable();
     System.out.println(newSet.sharpieSet().get(0).inkAmount);
     newSet.removeTrash();
-
-
   }
 }

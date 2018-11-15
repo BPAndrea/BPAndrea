@@ -16,5 +16,7 @@ public class Main {
 
         System.out.println(postIt1.backgroundColor + postIt1.textColor + postIt1.textOnIt);
 
+
+
     }
 }
