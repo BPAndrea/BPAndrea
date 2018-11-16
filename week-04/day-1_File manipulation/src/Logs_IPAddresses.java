@@ -24,6 +24,8 @@ public class Logs_IPAddresses {
       for (int i = 0; i < logList.size(); i++) {
         ipAddresses.add(logList.get(i).substring(27, 38));
       }
+      System.out.println(ipAddresses.size());
+
            /* for each solution instead of a simple for loop:
            Files.lines(filePath)
                     .forEach(output -> System.out.println(output.substring(27, 38)));
@@ -39,12 +41,15 @@ public class Logs_IPAddresses {
     } catch (IOException e) {
       e.printStackTrace();
     }
+
+
     ArrayList<String> uniqueIP = new ArrayList<>();
-/*    for (int i = 0; i < ipAddresses.size(); i++) {
+    for (int i = 0; i < ipAddresses.size(); i++) {
       if (!uniqueIP.contains(ipAddresses.get(i))) {
         uniqueIP.add(ipAddresses.get(i));
       }
-    }*/
+    }
+
 
     //Solution Nr. 2 with foreach:
     for (String row : ipAddresses) {
@@ -54,5 +59,6 @@ public class Logs_IPAddresses {
 
     }
     System.out.println("Unique IP Addresses: " + uniqueIP);
+      System.out.println(uniqueIP.size());
   }
 }
