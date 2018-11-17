@@ -10,12 +10,20 @@ package Pirates;
     - brawl(x) - where pirate fights another pirate (if that other pirate is alive) and there's a 1/3 chance,
  1 dies, the other dies or they both pass out.*/
 public class Pirate {
-  int consumedRum = (int)(Math.random() * 10);
+  int consumedRum = (int) (Math.random() * 10);
   boolean isAlive = true;
 
+  Pirate (){
 
+  }
+  Pirate (boolean isAlive){
+    this.isAlive = isAlive;
+  }
   public void drinkSomeRum() {
-    consumedRum++;
+    if (isAlive)
+      consumedRum++;
+    else
+      System.out.println("He's dead.");
   }
 
   public void howsItGoingMate(Pirate pirate) {
@@ -34,29 +42,28 @@ public class Pirate {
     return isAlive = false;
   }
 
-  public void brawl(Pirate yourPirate, Pirate enemyPirate) {
-    if (enemyPirate.isAlive == true && yourPirate.isAlive == true) {
-      int chance = (int) (Math.random() * 3);
-      switch (chance) {
-        case 0:
-          yourPirate.die();
-          System.out.println("Your pirate is dead. He can't fight.");
-          break;
-        case 1:
-          enemyPirate.die();
-          System.out.println("Enemy pirate is dead. He can't fight.");
-          break;
-        case 2:
-          System.out.println("Both pass out.");
-          break;
+  public void brawl(Pirate enemyPirate) {
+    if (!isAlive) {
+      System.out.println("Your pirate is dead.");
+    } else {
+      if (enemyPirate.isAlive) {
+        int chance = (int) (Math.random() * 3);
+        switch (chance) {
+          case 0:
+            this.die();
+            System.out.println("Your pirate is dead. He can't fight anymore.");
+            break;
+          case 1:
+            enemyPirate.die();
+            System.out.println("Enemy pirate is dead. He can't fight anymore.");
+            break;
+          case 2:
+            System.out.println("Both pass out.");
+            break;
+        }
+      } else if (!enemyPirate.isAlive) {
+        System.out.println("Enemy pirate is dead.");
       }
-    } else if (!enemyPirate.isAlive && !yourPirate.isAlive) {
-      System.out.println("Enemy pirate is dead. He can't fight.");
-      System.out.println("Your pirate is dead. He can't fight.");
-    } else if (!enemyPirate.isAlive) {
-      System.out.println("Enemy pirate is dead. He can't fight.");
-    } else if (!yourPirate.isAlive) {
-      System.out.println("Your pirate is dead. He can't fight.");
     }
   }
 }

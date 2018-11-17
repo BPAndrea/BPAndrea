@@ -19,13 +19,11 @@ import java.util.ArrayList;
 
 public class Ship {
   ArrayList<Pirate> pirates;
+  int crewAlive = (int) (Math.random() * 25);
+
+
   Pirate captain = new Pirate();
 
-/*public boolean battle(Ship otherShip) {
-  int score=0;
-  //this.pirates.
-
-return win;}*/
 
   Ship(ArrayList<Pirate> crew) {
     this.pirates = crew;
@@ -33,8 +31,7 @@ return win;}*/
 
   public void fillShip() {
     pirates.add(captain);
-    int crewNumber = (int) (Math.random() * 10);
-    for (int i = 0; i < crewNumber - 1; i++) {
+    for (int i = 0; i < this.crewAlive; i++) {
       pirates.add(new Pirate());
     }
     shipInfo();
@@ -46,9 +43,46 @@ return win;}*/
       System.out.println("The captain is alive.");
     else
       System.out.println("The captain is dead.");
-    System.out.println("The number of alive pirates in the crew:  " + (pirates.size()-1));
+    System.out.println("The number of alive pirates in the crew:  " + (this.crewAlive-1));
   }
 
+/*  public int crewAlive() {
+    int numberAlive = 0;
+    for (int i = 0; i < pirates.size(); i++) {
+      if (pirates.get(i).isAlive)
+        numberAlive++;
+    }
+    return numberAlive;
+  }*/
 
+  public boolean battle(Ship otherShip) {
+    boolean win = false;
+    int losses = (int) (1+(Math.random() * 10));
 
+    if ((this.crewAlive - this.captain.consumedRum) > (otherShip.crewAlive - otherShip.captain.consumedRum)) {
+      if (losses >= this.pirates.size()) {
+        losses = this.pirates.size()-1;
+      }
+      for (int i = 0; i < losses; i++) {
+        otherShip.pirates.remove(i);
+
+      }
+      System.out.println("Your ship won the battle. The enemy lost " +losses+ " pirates.");
+      return win = true;
+    } else {
+      if (losses > otherShip.pirates.size()) {
+        losses = otherShip.pirates.size();
+      }
+      for (int i = 0; i < losses; i++) {
+        this.pirates.remove(i);
+      }
+      System.out.println("The enemy ship won the battle. You lost " +losses+ " pirates.");
+      return win = false;
+    }
+  }
 }
+
+
+
+
+

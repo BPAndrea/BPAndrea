@@ -11,14 +11,23 @@ public class Main {
     Parrot parrotInMain = new Parrot();
 
     ArrayList<Pirate> pirates = new ArrayList<>();
-
     Ship shipInMain = new Ship (pirates);
-    System.out.println("Ship size at initialisation: " +shipInMain.pirates.size());
+    Ship enemyShip = new Ship (pirates);
+    //System.out.println("Ship size at initialisation: " +shipInMain.pirates.size());
+    //System.out.println("Ship size at initialisation: " +enemyShip.pirates.size());
 
     shipInMain.fillShip();
+    enemyShip.fillShip();
+    System.out.println("Ship size after filling: " +shipInMain.pirates.size());
+    System.out.println("Enemy's Ship size after filling: " +enemyShip.pirates.size());
+    System.out.println("Pirates being alive on ship: "+shipInMain.crewAlive());
+    System.out.println("Pirates being alive on ship: "+enemyShip.crewAlive());
+    System.out.println(shipInMain.pirates.size());
+    System.out.println(enemyShip.pirates.size());
+    System.out.println(shipInMain.battle(enemyShip));
 
 
-    //Testing drinkSomeRum, howsIsGoingMate, die:
+    //1. Testing drinkSomeRum, howsIsGoingMate, die:
     firstPirate.drinkSomeRum();
     firstPirate.drinkSomeRum();
     firstPirate.drinkSomeRum();
@@ -32,9 +41,9 @@ public class Main {
     firstPirate.howsItGoingMate(firstPirate);
 
 
-    firstPirate.brawl(firstPirate, secondPirate);
-    secondPirate.brawl(secondPirate, firstPirate);
-    secondPirate.brawl(secondPirate, thirdPirate);
+    firstPirate.brawl(secondPirate);
+    secondPirate.brawl(firstPirate);
+    secondPirate.brawl(thirdPirate);
 
 
 
