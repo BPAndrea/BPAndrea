@@ -1,3 +1,4 @@
+/*
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
@@ -16,19 +17,18 @@ public class TicTacToe {
     Path pathX = Paths.get("assets/win-x.txt");
     Path pathDraw = Paths.get("assets/draw.txt");
 
-   // System.out.println(ticTacResult(pathO));
+    System.out.println(ticTacResult(pathO));
     // Should print "O"
 
     //System.out.println(ticTacResult(pathX));
     // Should print "X"
 
-    System.out.println(ticTacResult(pathDraw));
+    // System.out.println(ticTacResult(pathDraw));
     // Should print "Draw"
   }
 
   public static String ticTacResult(Path path) {
-    int o = 0;
-    int x = 0;
+    String winner = "a";
     List<String> input = new ArrayList<>();
 
     try {
@@ -36,20 +36,21 @@ public class TicTacToe {
     } catch (IOException e) {
       e.printStackTrace();
     }
+
+
     for (int i = 0; i < input.size(); i++) {
-      for (int j = 0; j < input.get(i).length(); j++) {
-        if (input.get(i).charAt(j) == 'X')
-          x++;
-        else
-          o++;
+      if (input.get(i).charAt(0) == input.get(i).charAt(1) && input.get(i).charAt(1) == input.get(i).charAt(2)) {
+        winner.replace('a', input.get(i).charAt(0));
       }
     }
-    if (x > o)
-      return "X";
-    else if (x == o)
-      return "Draw";
-    else
-      return "O";
+    for (int i = 0; i < input.size(); i++) {
+      for (int j = 0; j < input.get(i).length(); j++) {
+        if ((input.get(0).charAt(j) == input.get(1).charAt(j) && input.get(1).charAt(j) == input.get(2).charAt(j))) {
+          winner.replace('a', input.get(0).charAt(1));
+        }
+      }
+    }
+    return winner;
   }
-
 }
+*/
