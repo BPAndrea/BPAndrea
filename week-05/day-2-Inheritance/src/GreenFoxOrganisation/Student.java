@@ -29,11 +29,12 @@ public class Student extends Person {
   }
 
   public void getGoal() {
-    System.out.println("Be a junior software developer.");
+    System.out.println("\nBe a junior software developer.");
   }
 
-  public String introduce() {
-    return (super.introduce() + " from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
+  public void introduce() {
+    super.introduce();
+    System.out.print(" from " + previousOrganization + " who skipped " + skippedDays + " days from the course already.");
   }
 
   public void skipDays(int numberOfDays) {

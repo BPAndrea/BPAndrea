@@ -22,14 +22,15 @@ public class Mentor extends Person {
 
   Mentor(String name, int age, String gender, String level) {
     super(name, age, gender);
-    this.level = "intermediate";
+    this.level = level;
   }
 
   public void getGoal() {
     System.out.println("Educate brilliant junior software developers.");
   }
 
-  public String introduce() {
-    return (super.introduce()+ " " + level +" mentor.");
+  public void introduce() {
+    super.introduce();
+    System.out.println(" " + level +" mentor.");
   }
 }

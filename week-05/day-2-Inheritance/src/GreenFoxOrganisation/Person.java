@@ -29,12 +29,12 @@ public class Person {
     this.gender = gender;
   }
 
-  public String introduce() {
-   return ("Hi, I'm " + name + ", a " + age + " year old " + gender);
+  public void introduce() {
+    System.out.print("Hi, I'm " + name + ", a " + age + " year old " + gender);
   }
 
   public void getGoal() {
-    System.out.println("My goal is: Live for the moment!");
+    System.out.println("\nMy goal is: Live for the moment!");
   }
 
 }

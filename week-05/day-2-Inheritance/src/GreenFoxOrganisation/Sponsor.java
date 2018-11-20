@@ -29,8 +29,9 @@ public class Sponsor extends Person {
     this.company = company;
   }
 
-  public String introduce() {
-    return (super.introduce() +" who represents " + company + " and hired " + hiredStudents + " students so far.");
+  public void introduce() {
+    super.introduce();
+    System.out.println(" who represents " + company + " and hired " + hiredStudents + " students so far.");
   }
 
   public void hire() {
