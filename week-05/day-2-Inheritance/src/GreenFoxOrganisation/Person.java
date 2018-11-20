@@ -30,7 +30,7 @@ public class Person {
   }
 
   public String introduce() {
-   return ("Hi, I'm " + name + ", a " + age + " year old " + gender +".");
+   return ("Hi, I'm " + name + ", a " + age + " year old " + gender);
   }
 
   public void getGoal() {
