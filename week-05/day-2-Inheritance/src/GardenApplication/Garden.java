@@ -13,4 +13,12 @@ public class Garden {
     this.flowers = new ArrayList<>();
     this.trees = new ArrayList<>();
   }
+
+  public void addFlower(Flower inputFlower) {
+    flowers.add(inputFlower);
+  }
+
+  public void addTree(Tree inputTree) {
+    trees.add(inputTree);
+  }
 }

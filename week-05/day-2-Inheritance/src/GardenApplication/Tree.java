@@ -7,4 +7,13 @@ public class Tree {
   String color;
   int waterAmount;
 
+  Tree() {
+    this.color = "";
+    this.waterAmount =0;
+  }
+
+  Tree(String color) {
+    this.color = color;
+  }
+
 }
