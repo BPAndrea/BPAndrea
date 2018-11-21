@@ -49,7 +49,6 @@ public class Student extends Person implements Cloneable {
 */
 
   public Student clone() {
-    //Student copy = new Student(inputStud.name, inputStud.age, inputStud.gender, inputStud.previousOrganization);
     return this;
   }
 }
