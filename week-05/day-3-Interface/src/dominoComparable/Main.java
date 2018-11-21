@@ -13,9 +13,17 @@ public class Main {
     dominoes.add(new Domino(6, 7));
     dominoes.add(new Domino(2, 4));
     dominoes.add(new Domino(7, 1));
+
+    //implementing Printable
+    for (Domino d : dominoes) {
+      d.printAllFields();
+    }
+    System.out.println();
+
 // the order of your dominoes should look like this: [[1,5], [2,4], [4,6], [5,2], [6,7], [7,1]]
     Collections.sort(dominoes);
     System.out.println(dominoes.toString());
+
 
   }
 }

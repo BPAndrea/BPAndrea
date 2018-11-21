@@ -4,9 +4,10 @@ package dominoComparable;
     more info here
     First compare the first value and then the second*/
 
+
 import java.util.Arrays;
 
-public class Domino implements Comparable<Domino> {
+public class Domino implements Comparable<Domino> , Printable {
   private final int left;
   private final int right;
 
@@ -37,5 +38,10 @@ public class Domino implements Comparable<Domino> {
     else
       return -1;
   }
-}
+
+  @Override
+  public void printAllFields() {
+      System.out.print("[" + left + ", " + right + "]");
+    }
+  }
 
