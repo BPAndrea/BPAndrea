@@ -13,7 +13,7 @@ package GreenFoxOrganisation;
     Student(name, age, gender, previousOrganization): beside the given parameters, it sets skippedDays to 0
     Student(): sets name to Jane Doe, age to 30, gender to female, previousOrganization to The School of Life, skippedDays to 0*/
 
-public class Student extends Person {
+public class Student extends Person implements Cloneable {
   String previousOrganization;
   int skippedDays;
 
@@ -23,7 +23,7 @@ public class Student extends Person {
     this.skippedDays = 0;
   }
 
-  Student (String name, int age, String gender, String previousOrganization) {
+  Student(String name, int age, String gender, String previousOrganization) {
     super(name, age, gender);
     this.previousOrganization = previousOrganization;
   }
@@ -40,4 +40,18 @@ public class Student extends Person {
   public void skipDays(int numberOfDays) {
     numberOfDays++;
   }
+/*
+  Every Object has a clone() method, so all of your classes, even though the implementation is empty, it doesn't do anything
+  Get your Student class from the Greenfox Organization Exercise
+      Override and implement the clone() method, so it clones the student
+  Instantiate John, a 20 years old male from BME
+  Clone him into jonhTheClone
+*/
+
+  public Student clone() {
+    //Student copy = new Student(inputStud.name, inputStud.age, inputStud.gender, inputStud.previousOrganization);
+    return this;
+  }
 }
+
+

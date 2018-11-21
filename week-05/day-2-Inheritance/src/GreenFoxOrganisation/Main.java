@@ -33,7 +33,7 @@ public class Main {
       sponsor.hire();
     }
 
-    for(Person person : people) {
+    for (Person person : people) {
       person.introduce();
       person.getGoal();
     }
@@ -44,7 +44,13 @@ public class Main {
     awesome.addMentor(mentor);
     awesome.addMentor(gandhi);
     awesome.info();
+
+
+  /*Instantiate John, a 20 years old male from BME
+  Clone him into jonhTheClone*/
+    Student john1 = new Student("John", 20, "male", "BME");
+    Student johnTheClone = john1.clone();
+
+    System.out.println(johnTheClone.name + " " + johnTheClone.age + " "+ johnTheClone.gender + " " + johnTheClone.previousOrganization);
   }
-
-
 }
