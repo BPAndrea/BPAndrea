@@ -23,6 +23,7 @@ public class Aircraft {
   int baseDamage = 0;
   int totalDamage = 0;
   boolean isPriority = true;
+  int difference = this.maxAmmo - this.ammo;
 
   public void getTotalDamage(int totalDamage, int damage) {
     this.totalDamage+= damage;
@@ -36,10 +37,10 @@ public class Aircraft {
   }
 
   public int refill(int number) {
-    int difference = this.maxAmmo - this.ammo;
-    if (number > difference) {
+    //int difference = this.maxAmmo - this.ammo;
+    if (number > this.difference) {
       this.ammo = this.maxAmmo;
-      return number-difference;
+      return number-this.difference;
     } else {
       this.ammo += number;
       return 0;
