@@ -8,20 +8,11 @@ public class Sum {
      Instantiate your class
      create a list of integers
          use the assertEquals to test the result of the created sum method*/
- //ArrayList<Integer> sumsToAdd = new ArrayList<>();
-
-/*  Sum(ArrayList<Integer> initial) {
-    for (Integer item: sumsToAdd) {
-      this.sumsToAdd.add(item);;
-    }
-    }
-    */
-
 
   public int sum(ArrayList<Integer> input) {
     int result =0;
     for (int i = 0; i < input.size() ; i++) {
-      result+=i;
+      result+=input.get(i);
     }
     return result;
   }

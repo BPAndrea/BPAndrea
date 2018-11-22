@@ -22,7 +22,7 @@ public class Aircraft {
   int maxAmmo = 0;
   int baseDamage = 0;
   int totalDamage = 0;
-  boolean isPriority = true;
+  boolean isPriority = false;
   int difference = this.maxAmmo - this.ammo;
 
   public void getTotalDamage(int totalDamage, int damage) {
