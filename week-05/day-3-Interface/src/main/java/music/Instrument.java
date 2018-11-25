@@ -1,7 +1,7 @@
-package main.java.music;
+/*package main.java.music;
 
-/*it reserves (e.g. protected) the name of the instrument
-    it should provide a play() method.*/
+*//*it reserves (e.g. protected) the name of the instrument
+    it should provide a play() method.*//*
 abstract public class Instrument {
   protected String name;
 
@@ -11,4 +11,4 @@ abstract public class Instrument {
   public void setName(String name) {
     this.name = name;
   }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 package main.java.music;
 
 //Electric Guitar, a 6-stringed instrument that goes Twang
@@ -24,3 +25,4 @@ public class ElectricGuitar extends StringedInstrument {
     System.out.println();
   }
 }
+*/
