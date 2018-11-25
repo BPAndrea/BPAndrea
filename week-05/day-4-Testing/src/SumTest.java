@@ -63,4 +63,6 @@ public class SumTest {
     test.add(4);
     assertEquals(19, mySum.sum(test));
   }
+
+
 }
