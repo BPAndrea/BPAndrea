@@ -35,10 +35,7 @@ public class ConditionalVariableMutation22 {
             c--;
         } else if (isBonus == true) {
             c = c;
-        } else {
-            System.out.println("Hibaág!");
-        }
-        ;
+        } ;
         System.out.println(c);
 
         //Solution Nr. 2:

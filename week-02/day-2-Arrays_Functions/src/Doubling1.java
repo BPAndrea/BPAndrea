@@ -11,7 +11,7 @@ public class Doubling1 {
     public static int doubling(int number){
         //number=2*number;
         //System.out.println(number);
-        return (2*number);
+        return number*=2;
 
     }
 }

@@ -10,6 +10,8 @@ public class Tree extends GardenItem{
     this.color = color;
     this.type = "Tree";
     this.absorbation = 0.4;
-    this.waterNeeded = 10.;
+    this.needsWater = 10.;
   }
 }
+
+

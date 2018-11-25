@@ -6,6 +6,40 @@ import java.util.ArrayList;
     when watering it should only water those what needs water with equally divided amount amongst them
     eg. watering with 40 and 4 of them need water then each gets watered with 10*/
 public class Garden {
+  ArrayList<GardenItem> plants;
+
+  Garden() {
+    this.plants = new ArrayList<>();
+  }
+
+  public void add(GardenItem inputItem) {
+    plants.add(inputItem);
+  }
+
+  public int countPlantsToBeWatered() {
+    int result = 0;
+    for (GardenItem element : plants) {
+      if (element.watercheck())
+        result++;
+    }
+    return result;
+  }
+
+  public void gardenWatering(int waterAmount) {
+    int plantsToBeWatered = countPlantsToBeWatered();
+    System.out.println("Watering with " + waterAmount);
+    int portion = waterAmount / plantsToBeWatered;
+    for (GardenItem element : plants) {
+      element.watering(portion);
+    }
+    gardenInfo();
+  }
+
+  public void gardenInfo() {
+    for (GardenItem element : plants) {
+      element.info();
+    }
+/*
   ArrayList<Flower> flowers;
   ArrayList<Tree> trees;
 
@@ -59,5 +93,7 @@ public class Garden {
       trees.get(i).info();
     }
   }
+*/
 
+  }
 }

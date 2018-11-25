@@ -11,7 +11,7 @@ public class AppendAFunc3_1 {
     // - Print the result of `appendAFunc(typo)
     public static String appendAFunc(String input){
 
-        return input + "a";
+        return input+="a";
     }
 
     }

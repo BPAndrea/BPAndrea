@@ -7,6 +7,7 @@ public class CompareLength8 {
     public static void main(String[] args) {
         int []q={1, 2, 3};
         int []p2={4, 5};
+        System.out.println(p2.length>q.length);
         if(q.length>p2.length){
             System.out.println("Array \"q\" has more elements than \"p2\".");
         }else

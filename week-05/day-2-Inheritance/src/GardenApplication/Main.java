@@ -10,11 +10,10 @@ public class Main {
     Tree myTree1 = new Tree("purple");
     Tree myTree2 = new Tree("orange");
     Garden myGarden = new Garden();
-
-    myGarden.addFlower(myFlower1);
-    myGarden.addFlower(myFlower2);
-    myGarden.addTree(myTree1);
-    myGarden.addTree(myTree2);
+    myGarden.add(myFlower1);
+    myGarden.add(myFlower2);
+    myGarden.add(myTree1);
+    myGarden.add(myTree2);
 
     myGarden.gardenInfo();
     //System.out.println(myGarden.countPlantsToBeWatered());
@@ -30,7 +29,7 @@ public class Main {
     /*System.out.println(myFlower1.type.equals("Flower"));
     System.out.println(myFlower1.type);
     System.out.println(myFlower1.waterLevel);
-    System.out.println(myFlower1.waterNeeded);
+    System.out.println(myFlower1.needsWater);
     System.out.println(myFlower1.color);
     //System.out.println(myFlower1.needsWater());
     System.out.println(myFlower1.waterCheck);

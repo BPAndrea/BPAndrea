@@ -8,40 +8,43 @@ package GardenApplication;
     when watering it the tree can only absorb the 40% of the water
     eg. watering with 10 the tree's amount of water should only increase with 4*/
 
-public class GardenItem {
+abstract class GardenItem {
   String type;
   String color;
   double waterLevel;
   double absorbation;
-  double waterNeeded;
-  boolean waterCheck;
+  double needsWater;
 
   GardenItem() {
     this.color = "";
     this.type = "x";
     this.waterLevel = 0;
     this.absorbation = 0;
-    this.waterNeeded = 0;
+    this.needsWater = 0;
   }
 
   public boolean watercheck() {
-    return (this.waterLevel < this.waterNeeded);
+    return (this.waterLevel < this.needsWater);
   }
+
+/*  public void watering(int waterAmount) {
+    if (this.type.equals("Flower") && this.watercheck()) {
+      this.waterLevel += waterAmount * this.absorbation;
+    } else if (this.type.equals("Tree") && (this.watercheck())) {
+      this.waterLevel += waterAmount * this.absorbation;
+    }
+  }*/
 
   public void watering(int waterAmount) {
-    if (this.type.equalsIgnoreCase("Flower") && this.watercheck()) {
-      this.waterLevel += waterAmount * 0.75;
-    } else if (this.type.equalsIgnoreCase("Tree") && (this.watercheck())) {
-      this.waterLevel += waterAmount * 0.4;
+    if (this.watercheck())
+      this.waterLevel += waterAmount * this.absorbation;
     }
-  }
 
-
- public void info() {
+  public void info() {
     if (this.watercheck()) {
-      System.out.println("The " + this.color + " " + this.type + " needs water.");
+      System.out.println("The " + this.color + " " + this.type + " needs water." + waterLevel);
     } else {
-      System.out.println("The " + this.color + " " + this.type + " doesn't need water.");
+      System.out.println("The " + this.color + " " + this.type + " doesn't need water." + waterLevel);
     }
   }
 

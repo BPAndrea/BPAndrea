@@ -11,6 +11,9 @@ public class Flower extends GardenItem {
     this.type = "Flower";
     this.color = color;
     this.absorbation = 0.75;
-    this.waterNeeded = 5;
+    this.needsWater = 5;
   }
 }
+
+
+
