@@ -1,3 +1,4 @@
+/*
 package main.java.music;
  //Bass Guitar, a 4-stringed instrument that goes Duum-duum-duum
 public class BassGuitar extends StringedInstrument {
@@ -24,3 +25,4 @@ public class BassGuitar extends StringedInstrument {
     System.out.println();
   }
 }
+*/
