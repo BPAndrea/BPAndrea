@@ -13,8 +13,9 @@ public class Animal {
   int hunger = 50;
   int thirst = 50;
 
-  public void eat() {
+  public int eat() {
     hunger--;
+    return hunger;
   }
 
   public void drink() {

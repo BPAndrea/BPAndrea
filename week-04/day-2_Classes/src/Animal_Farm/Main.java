@@ -25,8 +25,16 @@ public class Main {
     cat.play();
     dog.play();
     System.out.println(cat.hunger + " " + cat.thirst);
+    Farm myFarm = new Farm();
+    myFarm.arrayListFarm.add(cat);
+    myFarm.arrayListFarm.add(dog);
+    System.out.println(myFarm.arrayListFarm.size());
 
-    ArrayList<Animal> animals = new ArrayList<>();
+    myFarm.breed();
+
+    System.out.println(myFarm.arrayListFarm.size());
+
+    /*ArrayList<Animal> animals = new ArrayList<>();
     animals.add(cat);
     animals.add(dog);
 
@@ -37,18 +45,18 @@ public class Main {
     System.out.println(farmInMain.arrayListFarm.size());
     for (int i = 0; i < farmInMain.arrayListFarm.size(); i++) {
       System.out.print(farmInMain.arrayListFarm.get(i).hunger + ", ");
-    }
+    }*/
 
-    farmInMain.slaughter();
-    System.out.println(farmInMain.arrayListFarm.size());
-    for (int i = 0; i < farmInMain.arrayListFarm.size(); i++) {
-      System.out.print(farmInMain.arrayListFarm.get(i).hunger + ", ");
-    }
 
-    farmInMain.slaughter();
-    System.out.println(farmInMain.arrayListFarm.size());
-    for (int i = 0; i < farmInMain.arrayListFarm.size(); i++) {
-      System.out.print(farmInMain.arrayListFarm.get(i).hunger + ", ");
+    System.out.println(myFarm.arrayListFarm.size());
+    for (int i = 0; i < myFarm.arrayListFarm.size(); i++) {
+      System.out.print(myFarm.arrayListFarm.get(i).hunger + ", ");
+    }
+    myFarm.slaughter();
+   //myFarm.slaughter();
+    System.out.println(myFarm.arrayListFarm.size());
+    for (int i = 0; i < myFarm.arrayListFarm.size(); i++) {
+      System.out.print(myFarm.arrayListFarm.get(i).hunger + ", ");
     }
   }
 }

@@ -49,7 +49,6 @@ public class StudentCounter {
         //HELP-How to print a number of a Hashmap:
         // System.out.println(map.get(5).get("name"));
 
-
         double totalAge = 0;
 
         for (int i = 0; i < map.size(); i++) {

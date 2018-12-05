@@ -10,12 +10,16 @@ import java.util.ArrayList;
 
 public class Farm {
   ArrayList<Animal> arrayListFarm;
+  private int slots;
 
-  private int slots = 5;
-
-  Farm(ArrayList<Animal> arrayListFarm) {
-    this.arrayListFarm = arrayListFarm;
+  public Farm() {
+    this.arrayListFarm = new ArrayList<>();
+    this.slots = 5;
   }
+
+/*  Farm(ArrayList<Animal> arrayListFarm) {
+    this.arrayListFarm = arrayListFarm;
+  }*/
 
   public void breed() {
     if (slots > 0) {

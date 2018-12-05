@@ -13,8 +13,8 @@ public class GuessMyNumberRandom {
         int guess =0;
 
         while (guess!=randomNumber && lives>=0) {
-           // Scanner input1 = new Scanner(System.in);
-            guess = input1.nextInt();
+           //Scanner input1 = new Scanner(System.in);
+            guess = input.nextInt();
             if (guess < randomNumber) {
                 //lives--;
                 System.out.println("Too low. You have " + lives-- + " lives left. ");
@@ -35,4 +35,5 @@ public class GuessMyNumberRandom {
         }
     }
 
-}
+
+
