@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    background: #c0c0c0;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    justify-content: center;
+   
+}
+
+div {
+    margin: 0 0 0 300px; 
+}
+
+h1 {
+    margin: 25px 0 0 0;
+    font-weight: 100;
+}
+
+
+form {
+    font-size: 12px;
+    height:400px;
+    max-width: 250px;
+    padding: 20px 50px 50px 20px;
+    margin: 100px auto;
+    float: left;
+    background: white;
+    cursor: pointer; 
+    box-sizing: border-box;
+    vertical-align: center;
+     
+
+  }
+
+  input, button {
+    margin: 10px;
+    padding: 10px;
+    background-origin: padding-box;
+    cursor: pointer; 
+  }
+
+  input {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid gray;
+    font-weight: bold;
+  }
+
+  input[type=name] {
+    border: none;
+    outline: 0;
+    border-bottom: 2px solid mediumseagreen;
+  }
+
+  form .submit{
+    background: mediumseagreen;
+    width: 150px;
+    border-radius: 5px;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 200;
+    margin: 25px 10px 0 10px;
+}
+ .or {
+     margin: 150px 0 0 0;
+     border-radius: 50%;
+     text-decoration: none;
+     cursor: pointer; 
+     vertical-align: center; 
+     text-transform: uppercase;
+  }
+
+  .fb {
+      margin: 120px 0 0 0;
+      background-color: darkblue;
+      width: 200px;
+      color: white;
+      border-radius: 5px;
+      border: none;
+  }
+
+  .twitter {
+    margin: 15px 0 0 0;
+    background-color: lightskyblue;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.google {
+    margin: 15px 0 0 0;
+    background-color:firebrick;
+    width: 200px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+ 
