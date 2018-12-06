@@ -1,0 +1,30 @@
+
+table {
+    background: white;
+    font-size: 24px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: auto;
+    margin-top: 100px;
+    border-collapse: collapse;
+    height: 250px;
+    width: 500px;   
+  }
+
+  table, th, td {
+    border: 2px solid rgb(192, 192, 192);
+  }
+
+  th, td {
+    font-weight: 100;
+    padding: 15px 120px 15px 15px;
+    text-align: left;
+    color: rgb(121, 121, 121);
+  }
+
+  .tablebody tr:nth-child(odd) {background-color: #f2f2f2;}
+
+
+  .tablehead {
+    background-color: black;
+  }
+
