@@ -1,34 +1,59 @@
+body{
+    background: #c0c0c0;
+    align-content: center;
+}
+
+h1 {
+    font-family: 'PT Serif', serif;
+    text-transform: uppercase;
+    padding: 10px;
+  }
+
 form {
-   text-transform: uppercase;
-    /*font-family:'PT Serif', serif; /*"Helvetica", "Arial", sans-serif;*/
-    font-size: 16px;
-    /*line-height: 3;*/
-    text-align: center;
-    margin: auto;
-    padding: 30px;
-  
+    font-size: 12px;
+    max-width: 360px;
+    padding: 20px 50px 50px 20px;
+    margin: 150px auto;
+    z-index: 1;
+    position: relative;
+    background: white;
+    align-content: center;
+    text-transform: uppercase;
+    display: block;
+    
   }
 
-  h1 {
-    font-size: 24px; 
-  }
+input {
+  padding: 5px;
+  margin: 10px 20px;
+  z-index: 1;
+  position: relative;
+  width: 300px;
+}
 
-  label {
-    font-size: 12px; 
-    letter-spacing: 2px;
-
-  }
-
-  label, input {
-      display: block;
-      text-align: center;
+input[type=text] {
+    border-color: 	#00FF00;
+    border-width: 1px;
   }
  
-  button {
-      background-color: black;
-      color: white;
-      border-radius: 3px;
-      font-size: 12px; 
-      margin: 10px;
-      padding: 25px, 20px;
-  }
+label {
+   padding: 10px;
+   margin: 20px;
+ }
+ 
+p {
+   text-align: right;
+ }
+
+input[type=submit] {
+    padding: 15px 30px;
+    margin: 0 15px 0;
+    background: #000;
+    border: 0 none;
+    cursor: pointer;
+    border-radius: 40px;
+    color: #fff;
+    font-size: 12px;
+}
+ 
+
