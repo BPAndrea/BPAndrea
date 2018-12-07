@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  h1 {
+    color: mediumturquoise;
+    border-bottom: 2px solid mediumturquoise;
+    margin: 20px;
+  }
+
+  a {
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    font-size: 14px;
+    line-height: 1.42857143;
+    padding: 6px 12px;
+    margin-bottom: 10px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    white-space: nowrap;
+    vertical-align: middle;
+    background-color: tomato;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 200;
+  }
