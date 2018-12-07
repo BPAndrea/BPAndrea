@@ -1,4 +1,4 @@
-package com.greenfoxacademy.webshop.controllers;
+package com.greenfoxacademy.webshop.repository;
 /*The webshop stores ShopItems with at least 4 fields like name, description, price, quantityOfStock
     It can list the items in a nice table
     It contains basic links for filtering:
@@ -33,6 +33,18 @@ public class ShopItem {
       return true;
     else
       return false;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public int getPrice() {
+    return price;
+  }
+
+  public int getQuantityOfStock() {
+    return quantityOfStock;
   }
 }
 
