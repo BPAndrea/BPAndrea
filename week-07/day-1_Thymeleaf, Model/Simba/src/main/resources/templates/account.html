@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Thymeleaf Exercise #</title>
+    <link rel="stylesheet" th:href="@{/style.css}" />
+    <meta charset="utf-8" />
+</head>
+<body>
+
+<div>
+    <div th:each="account: ${accounts}">
+        <h1 th:text="${account.getName()} + ' - ' +${#numbers.formatDecimal(account.getBalance(), 3, 2, 'POINT')} + ' ' + ${account.getCurrency()}
+     + '(' + ${account.getAnimalType()} +')' "></h1>
+    </div>
+    <p th:text="${text}"></p>
+    <p th:utext="${text}"></p>
+</div>
+</body>
+</html>
