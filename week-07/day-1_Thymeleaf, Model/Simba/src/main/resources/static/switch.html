@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <div th:switch="${account.isGood()}">
+    <td th:case="'true'" th:text="'Good One'"></td>
+    <td th:case="'false'" th:text="'Bad Guy'"></td>
+</div>
+</body>
+</html>

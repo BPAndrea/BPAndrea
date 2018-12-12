@@ -4,6 +4,7 @@
     <title>Thymeleaf Exercise #</title>
     <link rel="stylesheet" th:href="@{/style.css}"/>
     <meta charset="utf-8"/>
+    <link rel='stylesheet' href='/style.css'/>
 </head>
 <body>
 
@@ -27,12 +28,12 @@
             <td th:text="${#numbers.formatDecimal(account.getBalance(), 1, 2, 'POINT')}"></td>
             <td th:text="${account.getCurrency()}"></td>
             <td th:text="${account.getAnimalType()}"></td>
-            <td th:if="${account.isKing()}" th:text="'King'" th:style="|color: red; background-color: black|"></td>
-            <div th:switch="${account.isGood()}">
-                <td th:case="'true'" th:text="'Good One'"></td>
-                <td th:case="'false'" th:text="'Bad Guy'"></td>
-            </div>
-
+            <td th:if="${account.isKing()}" th:text="'King'"
+                th:style="|color: red; background-color: black|">
+            <td th:unless="${account.isKing()}" th:text="'Not a king'"
+                th:style="|color: white; background-color: blue|">
+            <td th:if="${account.isGood()}" th:text="'Good One'"></td>
+            <td th:unless="${account.isGood()}" th:text="'Bad Guy'"></td>
         </tr>
 
         </tbody>
