@@ -19,7 +19,11 @@ public class AccountController {
 /*     accounts.add(new BankAccount("Simba", 2000, "lion", "Zebra", true));
      accounts.add(new BankAccount("Nala", 1200, "lion", "Nala"));
      accounts.add(new BankAccount("Shenzi", 250, "hyena", "USD", false, false));
+<<<<<<< HEAD:week-07/day-3_Thymeleaf, Model/Simba/src/main/java/com/greenfox/simba/controller/AccountController.java
      accounts.add(new BankAccount("Gopher", 99, "gopher", "FT"));*/
+=======
+     accounts.add(new BankAccount("Gopher", 99, "gopher", "FT"));
+>>>>>>> 4e860ac816e31537de51f57f59035417814aedc6:week-07/day-1_Thymeleaf, Model/Simba/src/main/java/com/greenfox/simba/controller/AccountController.java
   }
 
   /*  public static void raiseBalance(BankAccount name) {

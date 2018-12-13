@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 
+body {
+    color: khaki;
+}
+
 div {
     width: 100%;
     margin: 20px 20px auto auto;
-    background-color: khaki;
 }
 
 h1 {
@@ -19,32 +22,25 @@ h1 {
 
 table {
     border-collapse: collapse;
-    border: 1px solid mediumturquoise;
+    border: mediumturquoise;
     margin: 15px;
     width: 90%;
     padding: 20px;
     line-height: 5;
-    color: black;
 }
 
 thead {
     background-color: mediumturquoise;
-    border: 1px solid black;
+    border: 1px solid white;
     font-weight: bolder;
     padding: 30px 10px 30px 10px;
     text-align: center;
-    border-collapse: collapse;
-
 }
 
 tbody {
     font-weight: bolder;
-    border-collapse: collapse;
-    border: 1px solid mediumturquoise;
 }
 
 tbody td {
     padding-left: 25px;
-    border: 1px solid mediumturquoise;
-    border-collapse: collapse;
 }
