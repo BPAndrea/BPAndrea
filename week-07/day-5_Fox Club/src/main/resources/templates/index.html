@@ -7,7 +7,7 @@
 <body>
 <a href="">Information</a><br/>
 <img src="greenfox.png">
-<p>This is Mr. Fox. Currently livin on pizza and lemonade. He knows 2 tricks.</p>
+<p th:text="'This is '+ ${foxName} + '. Currently living on '+ ${food} + ' and ' + ${drink} + '. He knows 2 tricks.'">This is Mr. Fox. Currently livig on pizza and lemonade. He knows 2 tricks.</p>
 <h1>Known tricks</h1>
 <ul>
     <li>write HTML</li>

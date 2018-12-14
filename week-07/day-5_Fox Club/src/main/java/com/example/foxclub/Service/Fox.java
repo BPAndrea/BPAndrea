@@ -30,5 +30,5 @@ public class Fox {
     this.name = name;
     this.food = food;
     this.drink = drink;
-     }
+  }
 }

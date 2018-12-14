@@ -1,6 +1,8 @@
 package com.example.foxclub.Controller;
 
 import com.example.foxclub.Service.Fox;
+import com.example.foxclub.Service.FoxService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -11,29 +13,33 @@ import java.util.List;
 
 @Controller
 public class MainController {
-  List<Fox> foxes;
-  Fox myFox;
+  private FoxService foxService;
 
-
-  public MainController(List<Fox> foxes, Fox myFox){
-    this.foxes = foxes;
-    this.myFox = myFox;
+  @Autowired
+  public MainController(FoxService foxService) {
+    this.foxService = foxService;
   }
-
 
   @GetMapping("/")
   public String index() {
     return "index";
   }
 
-  @GetMapping("/login")
+ /* @GetMapping("/login")
   public String getLogin() {
     return "login";
-  }
+  }*/
 
-  @PostMapping("/login")
-  public String index(@RequestParam(name = "name") String name, Model model) {
-    model.addAttribute("foxname", "vmi");
-    return "redirect:/";
+  @GetMapping("/login")
+  public String findFox(@RequestParam(name = "name", required = false) String name, Model model) {
+    if (name != null) {
+      model.addAttribute("foxName", foxService.findFoxByName(name).getName());
+      model.addAttribute("food", foxService.findFoxByName(name).getFood());
+      model.addAttribute("drink", foxService.findFoxByName(name).getDrink());
+      //model.addAttribute("tricks", foxService.findFoxByName(name).tricks);
+      return "index";
+    } else {
+      return "login";
+    }
   }
 }

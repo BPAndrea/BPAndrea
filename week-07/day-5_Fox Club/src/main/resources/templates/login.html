@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
@@ -7,9 +7,9 @@
 <body>
     <h1>Welcom to Programmer Fox Club!</h1>
     <p>Please provide a name, so you can associate it to your pet!</p>
-    <form>
+    <form action="/login" method="get">
         <label for="name">Name</label>
-        <input name="name" id="name">
+        <input type="text" name="name" id="name">
         <button style="text-transform: uppercase">go</button>
     </form>
 
