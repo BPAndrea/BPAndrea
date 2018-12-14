@@ -1,20 +1,22 @@
-package com.example.foxclub.Repository;
+package com.example.foxclub.Service;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 
 public class Fox {
   private String name;
-  private ArrayList<String> tricks;
   private String food;
   private String drink;
+  public List<String> tricks = Arrays.asList("CSS", "HTML", "Thymeleaf", "SpringBoot");
 
   public String getName() {
     return name;
   }
 
-  public ArrayList<String> getTricks() {
-    return tricks;
-  }
+/*  public ArrayList<String> getTricks() {
+    return (ArrayList)tricks;
+  }*/
 
   public String getFood() {
     return food;
@@ -24,10 +26,9 @@ public class Fox {
     return drink;
   }
 
-  public Fox(String name, ArrayList<String> tricks, String food, String drink) {
+  public Fox(String name, String food, String drink) {
     this.name = name;
-    this.tricks = tricks;
     this.food = food;
     this.drink = drink;
-  }
+     }
 }
