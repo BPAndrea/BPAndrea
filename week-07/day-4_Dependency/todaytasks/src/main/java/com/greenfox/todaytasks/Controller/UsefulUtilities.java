@@ -17,8 +17,8 @@ public class UsefulUtilities {
   }
 
   @GetMapping ("/useful")
-  public void vmi() {
-
+  public String index() {
+  return "index";
   }
 
   @GetMapping ("/useful/colored")
@@ -28,7 +28,7 @@ public class UsefulUtilities {
   }
 
   @GetMapping("/useful/email")
-  public String emailValidator(@RequestParam(value="emailIncoming") String email, Model model) {
+  public String emailValidator(@RequestParam(value="email") String email, Model model) {
     if (utilityService.validateEmail(email)) {
       model.addAttribute("emailChecked", email + " is a valid email address.");
       model.addAttribute("color", "green");

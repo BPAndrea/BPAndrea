@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link rel='stylesheet' href='/main.css'/>
+</head>
+<body>
+
+    <a href="/useful/colored">Color background</a><br/>
+    <a href="/useful/email?email=is@this.valid">Email validator</a><br>
+    <a href="">Caesar encoder/decoder</a><br/>
+
+    <form method="get" action="/useful/email">
+        <label for="email">Email: </label>
+        <input type="text" id="email" name="email" placeholder="email">
+        <button type="submit">Validate Email</button>
+    </form>
+
+</body>
+</html>
