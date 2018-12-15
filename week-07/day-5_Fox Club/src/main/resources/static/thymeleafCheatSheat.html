@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf</title>
+</head>
+<body>
+
+EACH LOOP:
+<tr th:each="shopitem : ${shopitems}">
+    <td th:text="${shopitem.getName()}"></td>
+    <td th:text="${shopitem.getDescription()}"></td>
+    <td th:text="${shopitem.getPrice()}"></td>
+    <td th:text="${shopitem.getQuantityOfStock()}"></td>
+</tr>
+
+</body>
+</html>

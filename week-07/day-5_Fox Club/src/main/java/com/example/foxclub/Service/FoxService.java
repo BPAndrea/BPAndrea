@@ -33,6 +33,8 @@ public class FoxService {
     return foxes.get(index);
     }
 
+  //public int getFoxIndex(String name)
+
     /*public Fox getFoxByIndex(int index) {
       for (int i = 0; i < foxes.size() ; i++) {
         if (i == index)

@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p th:text="'This is '+ ${foxName} + '. Currently living on '+ ${food} + ' and ' + ${drink} + '. He knows 2 tricks.'">T
+</body>
+</html>
+
+
+<ul th:each="trick: ${tricks}">
+    <li th:text="${trick}">write HTML</li>
+    <li>code in Java</li>
+</ul>

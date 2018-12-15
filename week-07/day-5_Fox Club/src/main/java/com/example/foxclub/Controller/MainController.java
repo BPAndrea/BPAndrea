@@ -33,10 +33,11 @@ public class MainController {
   @GetMapping("/login")
   public String findFox(@RequestParam(name = "name", required = false) String name, Model model) {
     if (name != null) {
+
       model.addAttribute("foxName", foxService.findFoxByName(name).getName());
       model.addAttribute("food", foxService.findFoxByName(name).getFood());
       model.addAttribute("drink", foxService.findFoxByName(name).getDrink());
-      //model.addAttribute("tricks", foxService.findFoxByName(name).tricks);
+      model.addAttribute("tricks", foxService.findFoxByName(name).getTricks());
       return "index";
     } else {
       return "login";
