@@ -23,6 +23,10 @@ public class FoxService {
     //random = new Random();
   }
 
+  public void addNewFox(String name) {
+    foxes.add(new Fox("name", "snacks", "Cola"));
+  }
+
   public Fox findFoxByName(String name) {
     int index = 0;
     for (int i = 0; i < foxes.size() ; i++) {
@@ -33,9 +37,17 @@ public class FoxService {
     return foxes.get(index);
     }
 
-  //public int getFoxIndex(String name)
+  public int getFoxByIndex(String name) {
+    int index = 0;
+    for (int i = 0; i < foxes.size() ; i++) {
+      if(foxes.get(i).getName().equals(name)){
+        index = i;
+      }
+    }
+    return index;
+  }
 
-    /*public Fox getFoxByIndex(int index) {
+ /* public int getFoxIndex(Fox name) {
       for (int i = 0; i < foxes.size() ; i++) {
         if (i == index)
         if(foxes.get(i).getName().equals(name)){

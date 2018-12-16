@@ -11,9 +11,9 @@
 <p th:text="|This is ${foxName}. Currently living on ${food} and ${drink}. He knows ${tricks.size()} tricks.|">This is
     Mr. Fox. Currently livig on pizza and lemonade. He know 1 trick.</p>
 <h1>Known tricks</h1>
-<ul th:each="trick: ${tricks}">
-    <li th:text="${trick}">write HTML</li>
-</ul>
+    <ul th:each="trick: ${tricks}">
+         <li th:text="${trick}">write HTML</li>
+    </ul>
 </body>
 </html>
 

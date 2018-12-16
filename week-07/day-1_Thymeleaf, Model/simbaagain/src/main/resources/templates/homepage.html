@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p>It's working again :-)!!!</p>
+<a href="/">Home</a>
+<a href="/multiple">All accounts </a>
+<a href="/add">Add account </a>
+
+<table>
+    <thead>
+    <tr>
+        <td>Nr.</td>
+        <td>Name</td>
+        <td>Balance</td>
+        <td>Currency</td>
+        <td>Animal Type</td>
+        <td>King?</td>
+        <td>Bad Guy?</td>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="account,iterstat : ${accounts}" th:class="${iterstat}">
+        <td th:text="${iterstat.count}"></td>
+        <td th:text="${account.getName()}"></td>
+        <td th:text="${#numbers.formatDecimal(account.getBalance(), 2, 3, 'COMMA')}"></td>
+        <td th:text="${account.getCurrency()}"></td>
+        <td th:text="${account.getAnimalType()}"></td>
+        <td th:if="${account.isKing()}" th:text="'King'" th:style="|color: white; background-color: red|"></td>
+        <td th:unless="${account.isKing()}" th:text="'not a King'"></td>
+        <td th:text="${account.isGood()}? 'Good One' : 'Bad Guy'">
+
+            <!-- <td th:if="${account.isGood()}" th:text="'Good Guy'"></td>
+            <td th:unless="${account.isGood()}" th:text="'Bad Guy'"></td>-->
+    </tbody>
+</table>
+
+<form th:action="@{/multiple}" th:object="${accounts}" method="post">
+    <label for="increase">Increase amount</label>
+    <input id="increase" name="increase" placeholder="Animal name"></input>
+    <button type="submit">Increase</button>
+</form>
+
+
+</body>
+</html>
