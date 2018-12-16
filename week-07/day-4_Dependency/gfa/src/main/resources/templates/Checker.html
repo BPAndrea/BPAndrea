@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Student checker</title>
+</head>
+<body>
+<form th:action="@{/gfa/check}", th:method="get">
+    <label>Search:
+        <input type="text" name="name" placeholder="Student's name">
+    </label>
+    <button>Find</button>
+</form>
+<p th:text="${finder}"></p>
+<a href="/gfa">Back to main page</a>
+</body>
+</html>
+
