@@ -3,6 +3,7 @@ package com.greenfox.mysql.Controller;
 
 
 import com.greenfox.mysql.Repository.TodoRepository;
+import com.greenfox.mysql.Service.TodoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Controller;
@@ -13,23 +14,31 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 @Controller
-@RequestMapping("/todo")
 public class TodoController {
+  private TodoServiceImpl todoService;
 
-  private TodoRepository todoRepository;
+  @Autowired
+  public TodoController(TodoServiceImpl todoService) {
+    this.todoService = todoService;
+  }
 
+ // ki lehet törölni: private TodoRepository todoRepository;
+
+/*
   @Autowired
   public TodoController(TodoRepository todoRepository) {
     this.todoRepository = todoRepository;
   }
+*/
 
-  @GetMapping({"/", "/list"} )
-  public String list(Model model){
-    model.addAttribute("todos", todoRepository.findAll());
+  @GetMapping("/todo/list")
+  public String list(Model model, @RequestParam(value="isActive", required = false) boolean isActive){
+    model.addAttribute("todos", todoService.findAll());
     return "todolist";
   }
 
 
 
 }
+
 

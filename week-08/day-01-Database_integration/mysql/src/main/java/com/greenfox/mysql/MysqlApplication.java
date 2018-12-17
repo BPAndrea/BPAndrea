@@ -23,7 +23,9 @@ public class MysqlApplication  implements CommandLineRunner{
 
   @Override
   public void run(String... args) throws Exception {
-/*    todoRepository.save(new Todo("Start the day"));
-    todoRepository.save(new Todo("Finish H2 workshop 1"));*/
+    todoRepository.save(new Todo("Start the day"));
+    todoRepository.save(new Todo("Finish H2 workshop 1"));
+    todoRepository.save(new Todo("Do Xmas shopping"));
+    todoRepository.save(new Todo("Go to New Year's Party"));
   }
 }

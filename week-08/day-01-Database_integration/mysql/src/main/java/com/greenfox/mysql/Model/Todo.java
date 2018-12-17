@@ -2,24 +2,26 @@ package com.greenfox.mysql.Model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 @Entity
 public class Todo {
   @Id
-  @GeneratedValue
+  @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
   private String title;
   private boolean isUrgent;
-  private boolean idDone;
-
-  public Todo() {
-  }
+  private boolean isDone;
 
   public Todo(String title) {
     this.title = title;
     this.isUrgent = false;
-    this.idDone = false;
+    this.isDone = false;
+  }
+
+  public Todo() {
+
   }
 
   public long getId() {
@@ -35,22 +37,6 @@ public class Todo {
   }
 
   public boolean isDone() {
-    return isDone();
-  }
-
-  public void setId(long id) {
-    this.id = id;
-  }
-
-  public void setTitle(String title) {
-    this.title = title;
-  }
-
-  public void setUrgent(boolean urgent) {
-    isUrgent = urgent;
-  }
-
-  public void setIdDone(boolean idDone) {
-    this.idDone = idDone;
+    return isDone;
   }
 }
