@@ -33,7 +33,11 @@ public class TodoController {
 
   @GetMapping("/todo/list")
   public String list(Model model, @RequestParam(value="isActive", required = false) boolean isActive){
-    model.addAttribute("todos", todoService.findAll());
+    if(isActive) {
+      model.addAttribute("todos", todoService.getActiveTodos());
+    } else {
+      model.addAttribute("todos", todoService.getAllTodos());
+    }
     return "todolist";
   }
 

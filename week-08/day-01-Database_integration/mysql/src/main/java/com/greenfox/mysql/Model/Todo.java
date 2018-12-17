@@ -23,6 +23,11 @@ public class Todo {
   public Todo() {
 
   }
+  public Todo(String title, boolean isUrgent, boolean isDone) {
+    this.title = title;
+    this.isUrgent = isUrgent;
+    this.isDone = isDone;
+  }
 
   public long getId() {
     return id;
