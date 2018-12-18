@@ -60,12 +60,28 @@ public class TodoController {
     todoService.addTodo(todo);
     return "redirect:/todo/list";
   }
+
+  @GetMapping ("/todo/{id}/delete")
+  public String deleteElement (@PathVariable long id){
+    todoService.delete(id);
+    return "redirect:/todo/list";
+  }
+
+  @GetMapping ("/todo/{id}/edit")
+  public String editForm (@PathVariable long id, Model model){
+    model.addAttribute("todo", todoService.findTodo(id));
+    return "edit";
+  }
+
+  @PostMapping ("/todo/{id}/edit")
+  public String editElement (@ModelAttribute("name") Todo todo){
+    todoService.addTodo(todo);
+    return "redirect:/todo/list";
+  }
 }
 
-/*
-
-  @PostMapping("/addtodo")
-  public String addItem(@ModelAttribute Todo todo) {
-    todoService.saveNewTodo(todo);
-    return "redirect:/";
+/*  @PostMapping("/{id}/edit")
+  public String postEdit(@ModelAttribute Todo todo) {
+    service.addTodo(todo);
+    return "redirect:/todo/";
   }*/

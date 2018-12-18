@@ -26,14 +26,14 @@ public class TodoServiceImpl {
     }
   }
 
-  public List<Todo> getActiveTodos(){
+  public List<Todo> getActiveTodos() {
     List<Todo> activeTodos = new ArrayList<>();
     activeTodos = todoRepository.findAll()
         .stream()
         .filter(todo -> !todo.isDone())
         .collect(Collectors.toList());
     return activeTodos;
-   }
+  }
 
   public List<Todo> getAllTodos() {
     List<Todo> todos = new ArrayList<>();
@@ -41,4 +41,22 @@ public class TodoServiceImpl {
     return todos;
   }
 
+  public void delete(long id) {
+/*    List<Todo> item = new ArrayList<>();
+    getAllTodos().stream().filter(searchedId -> searchedId.equals(id))
+        .collect(Collectors.toList());*/
+    this.todoRepository.deleteById(id);
+  }
+
+  public Todo findTodo(long id) {
+    if (this.todoRepository.findById(id).isPresent()) {
+      return this.todoRepository.findById(id).get();
+    }
+    return null;
+  }
+
+  public void updateElement(Todo todo, long id) {
+    Todo update = findTodo(id);
+    update= this.todoRepository.save(todo);
+  }
 }
