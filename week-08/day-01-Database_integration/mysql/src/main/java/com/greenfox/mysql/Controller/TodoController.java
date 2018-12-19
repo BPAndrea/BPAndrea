@@ -3,6 +3,7 @@ package com.greenfox.mysql.Controller;
 
 import com.greenfox.mysql.Model.Todo;
 import com.greenfox.mysql.Repository.TodoRepository;
+import com.greenfox.mysql.Service.AssigneeServiceImpl;
 import com.greenfox.mysql.Service.TodoServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
@@ -15,10 +16,12 @@ import java.util.List;
 @Controller
 public class TodoController {
   private TodoServiceImpl todoService;
+  private AssigneeServiceImpl assigneeService;
 
   @Autowired
-  public TodoController(TodoServiceImpl todoService) {
+  public TodoController(TodoServiceImpl todoService, AssigneeServiceImpl assigneeService) {
     this.todoService = todoService;
+    this.assigneeService = assigneeService;
   }
 
   // ki lehet törölni: private TodoRepository todoRepository;
@@ -92,5 +95,11 @@ public class TodoController {
       model.addAttribute("foundItems", result);
     }
     return "search";
+  }
+
+  @GetMapping("todo/assign")
+  public String list(Model model) {
+    model.addAttribute("assignees", assigneeService.listAllAssignee());
+    return "assignees";
   }
 }
