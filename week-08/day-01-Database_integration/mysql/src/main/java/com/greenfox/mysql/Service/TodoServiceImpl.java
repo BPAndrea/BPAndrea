@@ -59,4 +59,8 @@ public class TodoServiceImpl {
     Todo update = findTodo(id);
     update= this.todoRepository.save(todo);
   }
+
+  public List<Todo> findTodo(String title) {
+    return this.todoRepository.findAllByDescriptionContainingOrTitleContaining(title, title);
+  }
 }

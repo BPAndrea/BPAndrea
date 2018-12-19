@@ -11,11 +11,13 @@ public class Todo {
   @GeneratedValue(strategy = GenerationType.AUTO)
   private long id;
   private String title;
+  private String description;
   private boolean urgent;
   private boolean done;
 
-  public Todo(String title) {
+  public Todo(String title, String description) {
     this.title = title;
+    this.description = description;
     this.urgent = false;
     this.done = false;
   }
@@ -60,6 +62,14 @@ public class Todo {
 
   public void setDone(boolean done) {
     this.done = done;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
   }
 }
 
