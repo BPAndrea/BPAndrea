@@ -26,5 +26,10 @@ public class AssigneeServiceImpl {
       this.assigneeRepository.save(assignee);
     }
   }
-
+  public void delete(long id) {
+    this.assigneeRepository.deleteById(id);
+  }
+  public Assignee findAssignee(long id){
+    return this.assigneeRepository.findById(id).get();
+  }
 }

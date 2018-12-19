@@ -5,9 +5,27 @@
     <title>Assignees</title>
 </head>
 <body>
+<a href="/todo/addassignee" >Add new assignee</a><br>
 <h1>List of assignees</h1>
-<ul th:each="item: ${assignees}">
-    <li th:text="${item.name}"></li>
-</ul>
+<table>
+
+    <tr>
+        <th>ID</th>
+        <th>NAME</th>
+        <th>Email</th>
+
+    </tr>
+    <tr th:each="item: ${assignees}">
+        <td th:text="${item.id}">Name</td>
+        <td th:text="${item.name}">Name</td>
+        <td th:text="${item.email}">Email</td>
+        <td> <a th:href="@{/todo/asssign/{id}/delete(id=${item.getId()})}" th:action="@{/todo/asssign/{id}/delete(id=${item.getId()})}">delete</a></td>
+        <td>
+            <a th:href="@{/todo/assign/{id}/edit(id=${item.getId()})}" th:action="@{/todo/assign/{id}/edit(id=${item.getId()})}">edit</a>
+
+        </td>
+
+    </tr>
+</table>
 </body>
 </html>

@@ -5,7 +5,7 @@
     <title>Edit todo</title>
 </head>
 <body>
-<form th:action=@"{/todo/{id}/edit(id=${todo.id})}" th:method="post" th:object="${todo}">
+<form th:action="@{/todo/{id}/edit(id=${todo.id})}" th:method="post" th:object="${todo}">
      <div>
         <label for="title">Name of task: </label>
         <input id="title" name="title" th:field="*{title}"><br>

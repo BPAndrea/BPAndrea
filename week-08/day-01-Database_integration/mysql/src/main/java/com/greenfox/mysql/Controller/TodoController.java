@@ -97,9 +97,5 @@ public class TodoController {
     return "search";
   }
 
-  @GetMapping("todo/assign")
-  public String list(Model model) {
-    model.addAttribute("assignees", assigneeService.listAllAssignee());
-    return "assignees";
-  }
+
 }
