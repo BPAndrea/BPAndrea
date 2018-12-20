@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo list</title>
+    <link rel="stylesheet" type="text/css" href="/main.css">
+</head>
+<body>
+
+
+<a href="/add" >Submit new post</a><br>
+
+<h1>Trending posts</h1>
+<table>
+    <tr>
+        <th></th>
+        <th>Liked it </th>
+        <th>Don't like it</th>
+        <th>Reddit</th>
+    </tr>
+    <tr th:each="blog : ${blogs}">
+        <td th:text="${blog.likes}"></td>
+        <td><button>+</button></td>
+        <td><button>-</button></td>
+        <td th:text="${blog.title}"></td>
+
+    </tr>
+</table>
+</body>
+</html>
