@@ -1,0 +1,19 @@
+package com.greenfox.newreddit.Service;
+
+import com.greenfox.newreddit.Model.Post;
+import org.springframework.stereotype.Service;
+
+import java.util.List;
+
+@Service
+public interface PostService {
+  List<Post> getPostList();
+
+  void countIncreaser (Long id);
+
+  void countDecreaser (Long id);
+
+  void postSaver (Post post);
+
+  List<Post> bestPosts();
+}
