@@ -43,13 +43,13 @@ public class GfaController {
   }
   @GetMapping("/gfa/check")
   public String checkStudent(@RequestParam(value="name", required=false ) String name, Model model) {
-    if(name != null) {
+    if(name != null && name !="") {
       if (studentService.findStudent(name)) {
         model.addAttribute("finder", name + " is already our Student");
       } else {
         model.addAttribute("finder", name + " is not our student yet. Please register!");
       }
-    } else if (name == null) {
+    } else  {
       model.addAttribute("finder", "Please give a name you are searching for!");
     }
     return "checker";
