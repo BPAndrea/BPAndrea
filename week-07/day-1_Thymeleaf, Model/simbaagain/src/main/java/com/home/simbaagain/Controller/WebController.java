@@ -59,16 +59,17 @@ public class WebController {
   }
 
   @GetMapping("/add")
-  public String addNewAccount() {
+  public String addNewAccount(Model model) {
+    model.addAttribute("account", new BankAccount());
     return "add-account";
   }
 
-  /*  @PostMapping("/add")
+  @PostMapping("/add")
     public String addAccount(@ModelAttribute(name="bankAccount") BankAccount bankAccount, Model model){
       accountList.add(bankAccount);
-      return "redirect:/multiple"";
-    }*/
-  @PostMapping(
+      return "redirect:/multiple";
+    }
+  /*@PostMapping(
       value = "/add",
       consumes = MediaType.APPLICATION_FORM_URLENCODED_VALUE)
   public String addAccount(@RequestBody MultiValueMap<String, String> formData) {
@@ -81,6 +82,7 @@ public class WebController {
     this.accountList.add(newAccount);
     return "redirect:/multiple";
   }
+  */
 }
 
 

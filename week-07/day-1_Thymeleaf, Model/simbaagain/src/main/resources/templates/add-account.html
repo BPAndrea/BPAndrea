@@ -6,27 +6,27 @@
 </head>
 <body>
         <div>
-            <!--  <form action="#" th:action="@{/add}" method="post">
+             <form action="#" th:action="@{/add}" method="post" th:object="${account}">
                  <label for="name">Name</label>
-                 <input type="text" name="name" id="name" required>
+                 <input type="text" name="name" id="name" required th:field="*{name}">
 
                  <label for="balance">Balance</label>
-                 <input type="number" name="author" id="balance" th:field="*{setBalance}" required>
+                 <input type="number" name="author" id="balance" th:field="*{balance}" required>
 
                  <label for="currency">Currency</label>
-                 <input type="text" name="currency" id="currency" th:field="*{setCurrency}" required>
+                 <input type="text" name="currency" id="currency" th:field="*{currency}" required>
 
                  <label for="animalType">Animal type</label>
-                 <input type="text" name="animalType" id="animalType" th:field="*{setAnimalType}" required>
-                 <button type="submit">Save</button>-->
-                <form method="post" action="add">
+                 <input type="text" name="animalType" id="animalType" th:field="*{animalType}" required>
+                 <button type="submit">Save</button>
+              <!--  <form method="post" action="add">
                     <label>Name: <input name="name" type="text" required/></label>
                     <label>Balance: <input name="balance" type="number" required/></label>
                     <label>Currency: <input name="currency" type="text" required/></label>
                     <label>Animal type: <input name="animalType" type="text" required/></label>
                     <input type="submit" value="Save"/>
 
-            </form>
+            </form> -->
         </div>
 </body>
 </html>

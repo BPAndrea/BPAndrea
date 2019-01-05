@@ -11,6 +11,9 @@ public class BankAccount {
   private boolean isKing = false;
   private boolean isGood = true;
 
+  public BankAccount() {
+  }
+
   public BankAccount(String name, int balance, String animalType, String currency) {
     this.name = name;
     this.balance = balance;
