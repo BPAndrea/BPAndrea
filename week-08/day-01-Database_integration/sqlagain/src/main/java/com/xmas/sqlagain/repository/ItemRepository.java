@@ -9,5 +9,10 @@ import java.util.List;
 @Repository
 public interface ItemRepository extends CrudRepository<Item, Long> {
   List<Item> findAll();
-  void deleteById(long id);
+
+  void deleteById(Long id);
+
+  Item findAllById(Long id);
+
+  List<Item> findAllByNameContainingOrDescriptionContaining(String name, String description);
 }

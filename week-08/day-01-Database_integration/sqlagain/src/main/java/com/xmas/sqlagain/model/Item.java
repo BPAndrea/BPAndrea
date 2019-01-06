@@ -1,6 +1,9 @@
 package com.xmas.sqlagain.model;
 
+import com.xmas.sqlagain.repository.AssigneeRepository;
+import com.xmas.sqlagain.repository.ItemRepository;
 import org.hibernate.annotations.CreationTimestamp;
+import org.springframework.beans.factory.annotation.Autowired;
 
 import javax.persistence.*;
 import java.util.Date;
@@ -11,16 +14,46 @@ public class Item {
   @GeneratedValue
   private long id;
   private String name;
+  private String description="";
   @CreationTimestamp
   private Date timestamp;
-  private boolean isDone;
+  private boolean isDone = false;
+  private boolean isUrgent = false;
+
+  @ManyToOne(fetch=FetchType.LAZY)
+  private Assignee assignee = new Assignee("Nobody", "no email", (long)1);
 
   public Item() {
   }
 
   public Item(String name, boolean isDone) {
+    this();
     this.name = name;
     this.isDone = isDone;
+  }
+
+  public Item(String name, boolean isDone, boolean isUrgent, Assignee assignee) {
+    this();
+    this.name = name;
+    this.isDone = isDone;
+    this.isUrgent = isUrgent;
+    this.assignee = assignee;
+  }
+
+  public Assignee getAssignee() {
+    return assignee;
+  }
+
+  public void setAssignee(Assignee assignee) {
+    this.assignee = assignee;
+  }
+
+  public String getDescription() {
+    return description;
+  }
+
+  public void setDescription(String description) {
+    this.description = description;
   }
 
   public long getId() {
@@ -53,5 +86,13 @@ public class Item {
 
   public void setDone(boolean done) {
     isDone = done;
+  }
+
+  public boolean isUrgent() {
+    return isUrgent;
+  }
+
+  public void setUrgent(boolean urgent) {
+    isUrgent = urgent;
   }
 }

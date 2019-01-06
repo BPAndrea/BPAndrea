@@ -1,20 +1,37 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>Add item</title>
+    <title>Titlet</title>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body class="container">
+<nav class="navbar navbar-dark bg-sucess">
+    <a href="/" >HOME</a><br/>
+    <a href="/?isActive=true" >ACTIVE ITEMS</a><br/>
+    <a href="/add" >ADD ITEM</a><br/>
+    <a href="/assignee" >LIST OF ASSIGNEES</a><br/>
+</nav>
 
-<form th:action="@{/add}" method="post" th:object="${item}">
-    <label>Add new item:
-        <input th:type="text" th:field="*{name}"/>
-        <input type="submit" value="Submit new item">
-    </label>
 
-</form>
+
+<h1 class="text-center">List of Assignees</h1>
+<table class="table table-striped">
+    <thead>
+    <td>Id</td>
+    <td>Name</td>
+    <td>Email</td>
+     </thead>
+    <tbody>
+    <tr th:each="assignee: ${assignees}">
+        <td th:text="${assignee.getId()}"></td>
+        <td th:text="${assignee.getName()}"></td>
+        <td th:text="${assignee.getEmail()}"></td>
+    </tr>
+    </tbody>
+</table>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

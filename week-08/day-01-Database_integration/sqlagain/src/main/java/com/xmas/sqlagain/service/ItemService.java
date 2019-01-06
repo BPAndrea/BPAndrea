@@ -11,4 +11,10 @@ public interface ItemService {
   List<Item> getActive();
   void addItem(Item item);
   void deleteItemById(long id);
+
+  Item findById(Long id);
+
+  Item updateItem(Item item);
+
+  List<Item> findByNameOrDescription(String keyword);
 }

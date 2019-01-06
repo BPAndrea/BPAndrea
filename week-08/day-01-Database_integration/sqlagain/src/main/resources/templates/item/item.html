@@ -1,40 +1,26 @@
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <title>List of Items</title>
+    <title>Item in detail</title>
     <meta charset="UTF-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 </head>
 <body class="container">
 <nav class="navbar navbar-dark bg-sucess">
-<a href="/" >HOME</a><br/>
-<a href="/?isActive=true" >ACTIVE ITEMS</a><br/>
-<a href="/add" >ADD ITEM</a><br/>
+    <a href="/" >HOME</a><br/>
+    <a href="/?isActive=true" >ACTIVE ITEMS</a><br/>
+    <a href="/add" >ADD ITEM</a><br/>
 </nav>
+<h1 class="text-center">Details of Todo:</h1>
 
+<div th:action="@{|/${item.getId()}/item|}" method="get" th:object="${item}">
+    <p type="text" th:text="|Todo name: ${item.getName()}|"> </p>
+    <p type="checkbox" th:text="|Urgent: ${item.isUrgent()}|"> </p>
+    <p type="checkbox" th:text="|Done: ${item.isDone()}|"> </p>
 
-<h1 class="text-center">List of Items</h1>
-<table class="table table-striped">
-    <thead>
-    <td>Id</td>
-    <td>Name</td>
-    <td>Date</td>
-    <td>Done?</td>
-    </thead>
-    <tbody>
-    <tr th:each="item: ${items}">
-        <td th:text="${item.getId()}"></td>
-        <td th:text="${item.getName()}"></td>
-        <td th:text="${item.getTimestamp()}"></td>
-        <td th:text="${item.isDone()}"></td>
-        <td>
-            <a th:href="@{|/${item.getId()}/delete|}" method="get">delete</a>
-        </td>
-    </tr>
-    </tbody>
-</table>
-
+    <a href="/">Back to main page</a>
+</div>
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"

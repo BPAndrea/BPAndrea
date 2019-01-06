@@ -33,12 +33,30 @@ public class ItemServiceImpl implements ItemService {
 
   @Override
   public void addItem(Item item) {
-    itemRepository.save(item);
+    if(item != null) {
+      itemRepository.save(item);
+    }
   }
 
   @Override
   public void deleteItemById(long id) {
     itemRepository.deleteById(id);
   }
+
+  @Override
+  public Item findById(Long id) {
+    return itemRepository.findAllById(id);
+  }
+
+  @Override
+  public Item updateItem(Item item) {
+    return itemRepository.save(item);
+  }
+
+  @Override
+  public List<Item> findByNameOrDescription(String keyword) {
+    return itemRepository.findAllByNameContainingOrDescriptionContaining(keyword, keyword);
+  }
+
 
 }
