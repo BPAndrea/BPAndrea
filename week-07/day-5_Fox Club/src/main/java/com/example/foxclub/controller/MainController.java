@@ -21,11 +21,8 @@ public class MainController {
   @GetMapping("/")
   public String index(Model model) {
     model.addAttribute("fox", foxService.findFox("Mr. Green"));
-   /* model.addAttribute("foxName", "Mr. Green");
-    model.addAttribute("food", "salad");
-    model.addAttribute("drink", "water");
-    model.addAttribute("size", "1");
-    model.addAttribute("tricks", "code in Java");*/
+    model.addAttribute("change", "");
+    model.addAttribute("color", "red");
     return "index";
   }
 
@@ -46,6 +43,8 @@ public class MainController {
       return "login";
     } else {
       model.addAttribute("fox", foxToReturn);
+        model.addAttribute("change", "");
+        model.addAttribute("color", "red");
       return "index";
     }
   }
@@ -65,9 +64,31 @@ public class MainController {
   }
 
   @GetMapping("/nutrition")
-  public String getForm(Model model) {
-    model.addAttribute("fox",new Fox());
+  public String getForm(@RequestParam(name="name", required = false) String name, Model model) {
+    if (name != null && name != "") {
+      if (foxService.findFox(name) != null) {
+        model.addAttribute("giveName", "Please change the food and drink and push the bottom save!");
+        model.addAttribute("fox", foxService.findFox(name));
+        return "nutrition-update";
+      } else {
+        model.addAttribute("giveName", "Sorry I can't find the fox, please add it as a new one!");
+        model.addAttribute("fox", new Fox());
+        return "nutrition";
+      }
+    } else {
+      model.addAttribute("giveName", "Please give me the name of your fox!");
+      model.addAttribute("fox", new Fox());
+    }
     return "nutrition";
+  }
+
+  @PostMapping("/nutrition/update")
+  public String getFox(@ModelAttribute Fox fox, Model model) {
+    foxService.addFox(fox);
+    model.addAttribute("fox", fox);
+    model.addAttribute("change", "Your fox details has been changed as follows: ");
+    model.addAttribute("color", "red");
+    return "index";
   }
 
  /* @PostMapping("/login")

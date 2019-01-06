@@ -8,7 +8,7 @@
 </head>
 <body class="container">
 <h1 th:text ="${giveName}">Please select your fox name!</h1>
-<form action="/nutrition" th:method="get" th:object="${fox}">
+<form action="/nutrition/update" th:method="post" th:object="${fox}">
     <label>Fox name:
         <input type="text" name="name" th:field="*{name}">
     </label><br>
@@ -19,7 +19,6 @@
     <label>Drink:
         <input type="text" name="drink" th:field="*{drink}">
     </label><br>
-    <input type="submit" value="FIND MY FOX">
     <input th:action="@{/nutrition/update}"method="post" type="submit" value="CHANGE">
 </form>
 

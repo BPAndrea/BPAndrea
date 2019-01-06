@@ -13,7 +13,8 @@
     <a href="/login">Login</a><br/>
     <a href="/add">Add a new fox</a><br/>
 </nav>
-<img src="greenfox.png">
+<p th:text="${change}" th:style="|color: ${color}|"></p><br/>
+<img src="greenfox.png"/>
 <p th:text="|This is ${fox.getName()}. Currently living on ${fox.getFood()} and ${fox.getDrink()}. He knows ${fox.getNumberOfTricks()} tricks.|">
     This is
     Mr. Fox. Currently livig on pizza and lemonade. He knows 1 trick.</p>
