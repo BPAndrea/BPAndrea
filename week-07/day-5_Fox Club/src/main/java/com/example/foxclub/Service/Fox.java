@@ -43,7 +43,8 @@ public class Fox {
     this.food = food;
     this.drink = drink;
     random = new Random();
-    initializeTricks();
+    this.tricks = initializeTricks();
+   // this.tricks = Arrays.asList("code in Java", "write CSS", "write HTML", "tricks in Thymeleaf", "Guru in SpringBoot");
   }
 }
 

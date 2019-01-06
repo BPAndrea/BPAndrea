@@ -19,7 +19,12 @@ public class MainController {
     this.foxService = foxService;
   }
   @GetMapping("/")
-  public String index() {
+  public String index(Model model) {
+    model.addAttribute("foxName", "Mr. Green");
+    model.addAttribute("food", "salad");
+    model.addAttribute("drink", "water");
+    model.addAttribute("size", "1");
+    model.addAttribute("tricks", "code in Java");
     return "index";
   }
 
@@ -42,11 +47,12 @@ public class MainController {
         model.addAttribute("foxName", foxService.findFoxByName(name).getName());
         model.addAttribute("food", foxService.findFoxByName(name).getFood());
         model.addAttribute("drink", foxService.findFoxByName(name).getDrink());
+        model.addAttribute("size", foxService.findFoxByName(name).getTricks().size());
         model.addAttribute("tricks", foxService.findFoxByName(name).getTricks());
         return "index";
       }
     }else {
-      model.addAttribute("null", "Waiting for your imput!");
+      model.addAttribute("null", "Waiting for your input!");
       return "login";
     }
   }

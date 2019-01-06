@@ -10,16 +10,16 @@
     <p th:text="${notExists}" th:style="|color: red|"></p>
     <p th:text="${null}" th:style="|color: red|"></p>
 
-    <form action="/login" method="get">
+    <form th:action="@{/login}" th:method="post">
         <label for="name">Name</label>
         <input type="text" name="name" id="name">
         <button style="text-transform: uppercase">go</button>
     </form>
 
-    <form action="/login" method="post">
+  <!--  <form action="/login" method="post">
         <input type="text" name="name" id="addName">
         <button style="text-transform: uppercase">go</button>
-    </form>
+    </form>-->
 
 </body>
 </html>
