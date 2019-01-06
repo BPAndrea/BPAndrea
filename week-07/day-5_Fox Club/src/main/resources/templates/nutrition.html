@@ -1,26 +1,30 @@
-<!DOCTYPE html>
-<html xmlns:th="http://www.thymeleaf.org" lang="en">
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
 <head>
-    <meta charset="UTF-8">
+    <title>Titlet</title>
+    <meta charset="UTF-8"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
           integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
-    <title>Fox club</title>
 </head>
-<body class="container">
-<nav class="navbar navbar-dark bg-sucess">
-    <a href="/">Information</a><br/>
-    <a th:href="@{/nutrition}">Nutrition store</a><br/>
-    <a href="/login">Login</a><br/>
-    <a href="/add">Add a new fox</a><br/>
-</nav>
-<img src="greenfox.png">
-<p th:text="|This is ${fox.getName()}. Currently living on ${fox.getFood()} and ${fox.getDrink()}. He knows ${fox.getNumberOfTricks()} tricks.|">
-    This is
-    Mr. Fox. Currently livig on pizza and lemonade. He knows 1 trick.</p>
-<h1>Known tricks</h1>
-<ul th:each="trick: ${fox.getTricks()}">
-    <li th:text="${trick}">write HTML</li>
-</ul>
+<body>
+<h1>Please select your fox name!</h1>
+<form th:method="get" th:object="${fox}">
+    <label>Fox name:
+        <input type="text" name="name" th:field="*{name}">
+    </label><br>
+
+    <label>Food:
+        <input type="text" name="food" th:field="*{food}">
+    </label><br>
+    <label>Drink:
+        <input type="text" name="drink" th:field="*{drink}">
+    </label><br>
+
+</form>
+
+
+</body>
+
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
@@ -32,4 +36,3 @@
         crossorigin="anonymous"></script>
 </body>
 </html>
-
