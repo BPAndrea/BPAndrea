@@ -1,18 +1,17 @@
 package com.greenfox.api.controller;
 
-import com.greenfox.api.model.Doubling;
-import com.greenfox.api.model.ErrorMassage;
-import com.greenfox.api.model.Greeter;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import com.greenfox.api.model.*;
+import jdk.net.SocketFlow;
+import org.springframework.web.bind.annotation.*;
+
+import java.io.IOException;
 
 @RestController
 public class ApiController {
 
   @GetMapping("/doubling")
   public Object doubling(@RequestParam(value = "input", required = false) Integer input) {
-    if((input == null) || (input.equals(""))) {
+    if ((input == null) || (input.equals(""))) {
       return new ErrorMassage("Please provide an input!");
     } else {
       return new Doubling(input);
@@ -31,9 +30,25 @@ public class ApiController {
     } else {
       return new Greeter(name, title);
     }
-
-
   }
 
+  @GetMapping("/appenda/{appendable}")
+  public Object append(@PathVariable String appendable) {
+    //if (appendable != null) {
+    return new Append(appendable);
+    /*} else {
+      return new HttpURLConnection() {
+        @Override
+        public void connect() throws IOException {
+          return;
+        }
+      };*/
+
+    @PostMapping("dountil/{action}")
+    public Object doUntil(@PathVariable String action) {
+
+
+    }
+  }
 
 }
