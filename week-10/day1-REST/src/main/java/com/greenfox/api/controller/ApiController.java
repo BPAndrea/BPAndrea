@@ -4,6 +4,8 @@ import com.greenfox.api.model.*;
 import com.greenfox.api.service.MainService;
 import jdk.net.SocketFlow;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.HttpStatus;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.io.IOException;
@@ -44,9 +46,14 @@ public class ApiController {
   }
 
   @GetMapping("/appenda/{appendable}")
-  public Object append(@PathVariable String appendable) {
+  public Object append(@PathVariable(required = false) String appendable) {
     mainService.saveLog(new Log("appenda", appendable));
-    return new Append(appendable);
+    if (appendable != null) {
+      return new Append(appendable);
+    } else {
+     return new ResponseEntity(HttpStatus.NOT_FOUND);
+     //return new ResponseEntity(HttpStatus.NOT_ACCEPTABLE);
+    }
   }
 
   @PostMapping("dountil/{action}")
