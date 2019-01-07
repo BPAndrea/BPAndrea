@@ -43,12 +43,17 @@ public class ApiController {
           return;
         }
       };*/
+  }
 
-    @PostMapping("dountil/{action}")
-    public Object doUntil(@PathVariable String action) {
-
-
+  @PostMapping("dountil/{action}")
+  public Object doUntil(@PathVariable(required = false) String action, @RequestBody(required = false) Until until) {
+    if (until != null) {
+      int value = until.getUntil();
+      return new Result(action, value);
+    } else {
+      return new ErrorMassage("Please provide a number!");
     }
   }
+
 
 }

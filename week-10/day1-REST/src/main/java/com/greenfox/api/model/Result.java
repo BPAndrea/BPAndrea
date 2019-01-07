@@ -6,8 +6,12 @@ public class Result {
   public Result() {
   }
 
-  public Result(int result) {
-    this.result = result;
+  public Result(String action, int until) {
+    if (action.equals("sum")) {
+      this.result = sumNumbers(until);
+    } else if (action.equals("factor")) {
+      this.result = factorNumbers(until);
+    }
   }
 
   public int getResult() {
@@ -16,5 +20,21 @@ public class Result {
 
   public void setResult(int result) {
     this.result = result;
+  }
+
+  public int sumNumbers(int until) {
+    int result = 0;
+    for (int i = 1; i <= until; i++) {
+      result += i;
+    }
+    return result;
+  }
+
+  public int factorNumbers(int until) {
+    int result = 1;
+    for (int i = 1; i <= until; i++) {
+      result *= i;
+    }
+    return result;
   }
 }
