@@ -20,6 +20,7 @@ public class ApiController {
 
   @GetMapping("/doubling")
   public Object doubling(@RequestParam(value = "input", required = false) Integer input) {
+    mainService.saveLog(new Log("/doubling", input.toString()));
     if ((input == null) || (input.equals(""))) {
       return new ErrorMassage("Please provide an input!");
     } else {
@@ -30,6 +31,7 @@ public class ApiController {
   @GetMapping("/greeter")
   public Object greeter(@RequestParam(value = "name", required = false) String name,
                         @RequestParam(value = "title", required = false) String title) {
+    mainService.saveLog(new Log("/greeter", name + " ; " + title));
     if ((name == null) && (title == null)) {
       return new ErrorMassage("Please provide a name and a title!");
     } else if (name == null) {
@@ -43,20 +45,13 @@ public class ApiController {
 
   @GetMapping("/appenda/{appendable}")
   public Object append(@PathVariable String appendable) {
-    //if (appendable != null) {
     mainService.saveLog(new Log("appenda", appendable));
     return new Append(appendable);
-    /*} else {
-      return new HttpURLConnection() {
-        @Override
-        public void connect() throws IOException {
-          return;
-        }
-      };*/
   }
 
   @PostMapping("dountil/{action}")
   public Object doUntil(@PathVariable(required = false) String action, @RequestBody(required = false) Until until) {
+    mainService.saveLog(new Log("/dountil/{action}, action", until.toString()));
     if (until != null) {
       int value = until.getUntil();
       return new Result(action, value);
