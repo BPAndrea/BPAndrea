@@ -1,6 +1,7 @@
 package com.greenfox.api.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
+import com.fasterxml.jackson.annotation.JsonProperty;
 import org.hibernate.annotations.CreationTimestamp;
 
 import javax.persistence.Entity;
@@ -15,7 +16,8 @@ public class Log {
   private Long id;
 
   @CreationTimestamp
-  @JsonIgnore
+  //@JsonIgnore
+  @JsonProperty(value="created_at")
   private Date createdAt;
   private String endpoint;
   private String data;

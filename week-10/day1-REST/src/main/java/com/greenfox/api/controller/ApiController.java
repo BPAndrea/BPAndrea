@@ -47,7 +47,7 @@ public class ApiController {
 
   @GetMapping("/appenda/{appendable}")
   public Object append(@PathVariable(required = false) String appendable) {
-    mainService.saveLog(new Log("appenda", appendable));
+    mainService.saveLog(new Log("appenda",  appendable));
     if (appendable != null) {
       return new Append(appendable);
     } else {
@@ -58,7 +58,7 @@ public class ApiController {
 
   @PostMapping("dountil/{action}")
   public Object doUntil(@PathVariable(required = false) String action, @RequestBody(required = false) Until until) {
-    mainService.saveLog(new Log("/dountil/{action}, action", until.toString()));
+    mainService.saveLog(new Log("/dountil/{action}", until.toString()));
     if (until != null) {
       int value = until.getUntil();
       return new Result(action, value);
@@ -68,8 +68,8 @@ public class ApiController {
   }
 
   @GetMapping("/log")
-  public List<Log> listLogs() {
-    return mainService.getAllLogs();
+  public Object listLogs() {
+    return mainService;
   }
 
 
