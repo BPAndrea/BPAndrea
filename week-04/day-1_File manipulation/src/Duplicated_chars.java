@@ -18,11 +18,11 @@ public class Duplicated_chars {
 
             String simpleText = "";
             for (int i = 0; i < duplicatedText.size(); i++) {
-                for (int j = 0; j < (duplicatedText.get(i).length()); j++) {
-                    if (j % 2 != 0) {
+                for (int j = 0; j < (duplicatedText.get(i).length()); j+=2) {
+                   // if (j % 2 != 0) {
                         simpleText += duplicatedText.get(i).charAt(j);
                         //String new=duplicatedText.remove(0).charAt(j);
-                    }
+                    //}
                 }
                 simpleText+="\n";
             }

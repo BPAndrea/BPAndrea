@@ -11,52 +11,52 @@ import java.util.stream.Collectors;
 
 @Service
 public class ItemServiceImpl implements ItemService {
-  private ItemRepository itemRepository;
+    private ItemRepository itemRepository;
 
-  @Autowired
-  public ItemServiceImpl(ItemRepository itemRepository) {
-    this.itemRepository = itemRepository;
-  }
-
-  @Override
-  public List<Item> getAll() {
-    return (List<Item>) itemRepository.findAll();
-  }
-
-  @Override
-  public List<Item> getActive() {
-    List<Item> active = new ArrayList<>();
-   active = itemRepository.findAll().stream().
-       filter(item -> !item.isDone()).collect(Collectors.toList());
-    return active;
-  }
-
-  @Override
-  public void addItem(Item item) {
-    if(item != null) {
-      itemRepository.save(item);
+    @Autowired
+    public ItemServiceImpl(ItemRepository itemRepository) {
+        this.itemRepository = itemRepository;
     }
-  }
 
-  @Override
-  public void deleteItemById(long id) {
-    itemRepository.deleteById(id);
-  }
+    @Override
+    public List<Item> getAll() {
+        return itemRepository.findAll();
+    }
 
-  @Override
-  public Item findById(Long id) {
-    return itemRepository.findAllById(id);
-  }
+    @Override
+    public List<Item> getActive() {
+        List<Item> active = new ArrayList<>();
+        active = itemRepository.findAll().stream().
+                filter(item -> !item.isDone()).collect(Collectors.toList());
+        return active;
+    }
 
-  @Override
-  public Item updateItem(Item item) {
-    return itemRepository.save(item);
-  }
+    @Override
+    public void addItem(Item item) {
+        if (item != null) {
+            itemRepository.save(item);
+        }
+    }
 
-  @Override
-  public List<Item> findByNameOrDescription(String keyword) {
-    return itemRepository.findAllByNameContainingOrDescriptionContaining(keyword, keyword);
-  }
+    @Override
+    public void deleteItemById(long id) {
+        itemRepository.deleteById(id);
+    }
+
+    @Override
+    public Item findById(Long id) {
+        return itemRepository.findAllById(id);
+    }
+
+    @Override
+    public Item updateItem(Item item) {
+        return itemRepository.save(item);
+    }
+
+    @Override
+    public List<Item> findByNameOrDescription(String keyword) {
+        return itemRepository.findAllByNameContainingOrDescriptionContaining(keyword, keyword);
+    }
 
 
 }

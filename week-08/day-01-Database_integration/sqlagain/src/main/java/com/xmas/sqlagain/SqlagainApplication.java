@@ -26,7 +26,7 @@ public class SqlagainApplication implements CommandLineRunner {
 
   @Override
   public void run(String... args) throws Exception {
-    /*Assignee nobody = new Assignee("Nobody", "noemail");
+   /* Assignee nobody = new Assignee("Nobody", "noemail");
     assigneeRepository.save(nobody);
     Assignee andi = new Assignee("Andi", "andi@gmail.com");
     Assignee bela = new Assignee("Béla", "bela@gmail.com");

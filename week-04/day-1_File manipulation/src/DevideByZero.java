@@ -7,6 +7,10 @@ public class DevideByZero {
     // and prints the result.
     // It should print "fail" if the parameter is 0
     public static void main(String[] args) {
+        devideByZero();
+
+    }
+    public static void devideByZero() {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Give me a number: ");
         int divisor = scanner.nextInt();
