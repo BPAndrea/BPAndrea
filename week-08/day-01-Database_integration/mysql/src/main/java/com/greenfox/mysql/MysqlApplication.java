@@ -27,13 +27,13 @@ public class MysqlApplication  implements CommandLineRunner{
 
   @Override
   public void run(String... args) throws Exception {
-    /*todoRepository.save(new Todo("Start the day", true, true));
+    todoRepository.save(new Todo("Start the day", true, true));
     todoRepository.save(new Todo("Finish H2 workshop 1", "workshop"));
     todoRepository.save(new Todo("Do Xmas shopping", true, true));
-    todoRepository.save(new Todo("Go to New Year's Party", "don't forget to bring an xmas present"));*/
+    todoRepository.save(new Todo("Go to New Year's Party", "don't forget to bring an xmas present"));
 
-   /* assigneeRepository.save(new Assignee(1, "Pisti", "pisti@gmail.com"));
+    assigneeRepository.save(new Assignee(1, "Pisti", "pisti@gmail.com"));
     assigneeRepository.save(new Assignee(2, "Karola", "kircsi@gmail.com"));
-    assigneeRepository.save(new Assignee(3, "Mária", "marcsi@gmail.com"));*/
+    assigneeRepository.save(new Assignee(3, "Mária", "marcsi@gmail.com"));
   }
 }

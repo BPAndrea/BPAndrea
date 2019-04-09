@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org" lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel='stylesheet' href='myShopStyles.css'/>
+    <title>My Shop</title>
+</head>
+
+<body>
+<div>
+    <form class="form" action="http://localhost:8080/search" method="post" id="searchFor">
+        <h1 class="shop">My Shop</h1>
+        <div class="first-div">
+            <a href="/only-available">only aviable</a>
+            <a href="/cheapest-first">cheapest first</a>
+            <a href="/contains-nike">contains nike</a>
+            <a href="/average-stock">average stock</a>
+            <a href="/most-expensive">most expensive aviable</a>
+        </div>
+        <div class="second-div">
+            <label for="search">Search for:</label>
+            <input name="item" href="/search" type="text" placeholder="...something like nike" id="search" required>
+            <button class="submit" type="submit" form="searchFor" value="Submit">Search</button>
+        </div>
+    </form>
+
+    <h1 class="average" th:text="'Average stock: ' + ${average}"></h1>
+
+</div>
+</body>
+
+</html>

@@ -3,6 +3,8 @@ package com.greenfox.mysql.Model;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
+import javax.persistence.OneToMany;
+import java.util.List;
 
 @Entity
 public class Assignee {
@@ -11,6 +13,10 @@ public class Assignee {
   private long id;
   private String name;
   private String email;
+
+  @OneToMany(mappedBy = "assignee")
+  List<Todo> todos;
+
 
   public Assignee() {
 
