@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Workshop: CreateElement</title>
+  </head>
+  <body>
+    <ul class="asteroids">
+      <li>The King</li>
+    </ul>
+
+    <script>
+        const asteroids = document.getElementsByClassName("asteroids")[0];
+        const toRemove = document.getElementsByTagName("li")[0];
+        asteroids.removeChild(toRemove);
+
+    const planetData = [
+      {
+        category: 'inhabited',
+        content: 'Foxes',
+        asteroid: true,
+      },
+      {
+        category: 'inhabited',
+        content: 'Whales and Rabbits',
+        asteroid: true,
+      },
+      {
+        category: 'uninhabited',
+        content: 'Baobabs and Roses',
+        asteroid: true,
+      },
+      {
+        category: 'inhabited',
+        content: 'Giant monsters',
+        asteroid: false,
+      },
+      {
+        category: 'inhabited',
+        content: 'Sheep',
+        asteroid: true,
+      },
+    ];
+    
+    for(let i = 0; i < planetData.length; i++) {
+             if(planetData[i].asteroid == true){
+                 console.log(planetData[i]);
+                 let newElement = document.createElement("li");
+                 newElement.textContent = planetData[i].content;
+                 newElement.classList.add(planetData[i].category);
+                 asteroids.appendChild(newElement);
+             }
+         }
+ 
+        
+        </script>
+
+
+    <!-- You can work in the html or in a separate js file. Like:
+    <script>
+      Remove the king from the list.
+        //ANOTHER WORKING VERSION:
+
+          const asteroids = document.querySelector("ul");
+         const toRemove = document.querySelector("ul li");
+         asteroids.removeChild(toRemove);
+
+      Fill the list based on the following list of objects.
+      Only add the asteroids to the list.
+      Each list item should have its category as a class and its content as text content. -->
+      
+     
+    <!-- </script>
+    OR
+    <script src="createelement-2.js"></script> -->
+  </body>
+</html>
