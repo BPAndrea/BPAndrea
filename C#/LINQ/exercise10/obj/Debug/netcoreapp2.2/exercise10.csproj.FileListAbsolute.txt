@@ -1,0 +1,11 @@
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\bin\Debug\netcoreapp2.2\exercise10.deps.json
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\bin\Debug\netcoreapp2.2\exercise10.runtimeconfig.json
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\bin\Debug\netcoreapp2.2\exercise10.runtimeconfig.dev.json
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\bin\Debug\netcoreapp2.2\exercise10.dll
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\bin\Debug\netcoreapp2.2\exercise10.pdb
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\obj\Debug\netcoreapp2.2\exercise10.csprojAssemblyReference.cache
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\obj\Debug\netcoreapp2.2\exercise10.csproj.CoreCompileInputs.cache
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\obj\Debug\netcoreapp2.2\exercise10.AssemblyInfoInputs.cache
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\obj\Debug\netcoreapp2.2\exercise10.AssemblyInfo.cs
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\obj\Debug\netcoreapp2.2\exercise10.dll
+C:\greenfox\BPAndrea\C#\LINQ\exercise10\obj\Debug\netcoreapp2.2\exercise10.pdb
