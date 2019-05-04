@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\greenfox\\BPAndrea\\C#\\LINQ\\exercise5\\exercise5.csproj": {}
+  },
+  "projects": {
+    "C:\\greenfox\\BPAndrea\\C#\\LINQ\\exercise5\\exercise5.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\greenfox\\BPAndrea\\C#\\LINQ\\exercise5\\exercise5.csproj",
+        "projectName": "exercise5",
+        "projectPath": "C:\\greenfox\\BPAndrea\\C#\\LINQ\\exercise5\\exercise5.csproj",
+        "packagesPath": "C:\\Users\\bonny\\.nuget\\packages\\",
+        "outputPath": "C:\\greenfox\\BPAndrea\\C#\\LINQ\\exercise5\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\bonny\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.2"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.2": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.2": {
+          "dependencies": {
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.2.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
