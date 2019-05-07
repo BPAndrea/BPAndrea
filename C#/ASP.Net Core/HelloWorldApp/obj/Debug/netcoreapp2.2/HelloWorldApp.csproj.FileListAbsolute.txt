@@ -28,3 +28,4 @@ C:\greenfox\BPAndrea\C#\ASP.Net Core\HelloWorldApp\obj\Debug\netcoreapp2.2\Hello
 C:\greenfox\BPAndrea\C#\ASP.Net Core\HelloWorldApp\obj\Debug\netcoreapp2.2\HelloWorldApp.dll
 C:\greenfox\BPAndrea\C#\ASP.Net Core\HelloWorldApp\obj\Debug\netcoreapp2.2\HelloWorldApp.pdb
 C:\greenfox\BPAndrea\C#\ASP.Net Core\HelloWorldApp\obj\Debug\netcoreapp2.2\HelloWorldApp.csproj.CopyComplete
+C:\greenfox\BPAndrea\C#\ASP.Net Core\HelloWorldApp\obj\Debug\netcoreapp2.2\Razor\Views\Web\Greeting.g.cshtml.cs

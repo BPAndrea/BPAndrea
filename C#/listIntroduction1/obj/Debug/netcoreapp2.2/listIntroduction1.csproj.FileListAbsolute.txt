@@ -1,0 +1,11 @@
+D:\0. Greenfox\C#programok\listIntroduction1\bin\Debug\netcoreapp2.2\listIntroduction1.deps.json
+D:\0. Greenfox\C#programok\listIntroduction1\bin\Debug\netcoreapp2.2\listIntroduction1.runtimeconfig.json
+D:\0. Greenfox\C#programok\listIntroduction1\bin\Debug\netcoreapp2.2\listIntroduction1.runtimeconfig.dev.json
+D:\0. Greenfox\C#programok\listIntroduction1\bin\Debug\netcoreapp2.2\listIntroduction1.dll
+D:\0. Greenfox\C#programok\listIntroduction1\bin\Debug\netcoreapp2.2\listIntroduction1.pdb
+D:\0. Greenfox\C#programok\listIntroduction1\obj\Debug\netcoreapp2.2\listIntroduction1.csprojAssemblyReference.cache
+D:\0. Greenfox\C#programok\listIntroduction1\obj\Debug\netcoreapp2.2\listIntroduction1.csproj.CoreCompileInputs.cache
+D:\0. Greenfox\C#programok\listIntroduction1\obj\Debug\netcoreapp2.2\listIntroduction1.AssemblyInfoInputs.cache
+D:\0. Greenfox\C#programok\listIntroduction1\obj\Debug\netcoreapp2.2\listIntroduction1.AssemblyInfo.cs
+D:\0. Greenfox\C#programok\listIntroduction1\obj\Debug\netcoreapp2.2\listIntroduction1.dll
+D:\0. Greenfox\C#programok\listIntroduction1\obj\Debug\netcoreapp2.2\listIntroduction1.pdb

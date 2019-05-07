@@ -2794,6 +2794,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "Views\\Web\\Greeting.cshtml",
+      "TargetPath": "Views\\Web\\Greeting.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"

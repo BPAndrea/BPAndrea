@@ -4,13 +4,15 @@ namespace HelloUser.Models
 {
     public class Greeting
     {
-        public Greeting(long id, string content)
+
+        public static long Id { get; set; }
+        public string Content { get; set; }
+        public Greeting(string content)
         {
-            this.Id = id;
+
             this.Content = content;
+            Id++;
 
         }
-        public long Id { get; set; }
-        public string Content { get; set; }
     }
 }

@@ -10,7 +10,8 @@ namespace HelloUser.Controllers
         public Greeting Greet(string name)
         {
             //return new Greeting(1, "Hello, " + name);
-            return new Greeting(1, $"Hello, {name}");
+            //return new Greeting(1, $"Hello, {name}");
+            return new Greeting("Hello, " + name);
         }
     }
 }
