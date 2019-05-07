@@ -1,0 +1,11 @@
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\bin\Debug\netcoreapp2.2\mapIntroduction2.deps.json
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\bin\Debug\netcoreapp2.2\mapIntroduction2.runtimeconfig.json
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\bin\Debug\netcoreapp2.2\mapIntroduction2.runtimeconfig.dev.json
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\bin\Debug\netcoreapp2.2\mapIntroduction2.dll
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\bin\Debug\netcoreapp2.2\mapIntroduction2.pdb
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\obj\Debug\netcoreapp2.2\mapIntroduction2.csprojAssemblyReference.cache
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\obj\Debug\netcoreapp2.2\mapIntroduction2.csproj.CoreCompileInputs.cache
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\obj\Debug\netcoreapp2.2\mapIntroduction2.AssemblyInfoInputs.cache
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\obj\Debug\netcoreapp2.2\mapIntroduction2.AssemblyInfo.cs
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\obj\Debug\netcoreapp2.2\mapIntroduction2.dll
+C:\greenfox\BPAndrea\C#\listIntroduction2\mapIntroduction2\obj\Debug\netcoreapp2.2\mapIntroduction2.pdb
