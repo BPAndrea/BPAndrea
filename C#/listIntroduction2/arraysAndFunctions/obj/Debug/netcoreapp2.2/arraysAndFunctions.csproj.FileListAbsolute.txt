@@ -1,0 +1,11 @@
+C:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\bin\Debug\netcoreapp2.2\arraysAndFunctions.deps.json
+C:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\bin\Debug\netcoreapp2.2\arraysAndFunctions.runtimeconfig.json
+C:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\bin\Debug\netcoreapp2.2\arraysAndFunctions.runtimeconfig.dev.json
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\bin\Debug\netcoreapp2.2\arraysAndFunctions.dll
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\bin\Debug\netcoreapp2.2\arraysAndFunctions.pdb
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\obj\Debug\netcoreapp2.2\arraysAndFunctions.csprojAssemblyReference.cache
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\obj\Debug\netcoreapp2.2\arraysAndFunctions.csproj.CoreCompileInputs.cache
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\obj\Debug\netcoreapp2.2\arraysAndFunctions.AssemblyInfoInputs.cache
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\obj\Debug\netcoreapp2.2\arraysAndFunctions.AssemblyInfo.cs
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\obj\Debug\netcoreapp2.2\arraysAndFunctions.dll
+c:\greenfox\BPAndrea\C#\listIntroduction2\arraysAndFunctions\obj\Debug\netcoreapp2.2\arraysAndFunctions.pdb

@@ -57,6 +57,7 @@ namespace mapIntroduction1
             }
             //returns whether map contains key 100:
             System.Console.WriteLine(myMap.ContainsKey(100));
+            //delete all key-value pairs
             myMap.Clear();
             System.Console.WriteLine(myMap.Count);
 
