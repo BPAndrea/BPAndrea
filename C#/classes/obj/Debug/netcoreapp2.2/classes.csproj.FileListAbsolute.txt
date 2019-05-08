@@ -1,0 +1,11 @@
+C:\greenfox\BPAndrea\C#\classes\bin\Debug\netcoreapp2.2\classes.deps.json
+C:\greenfox\BPAndrea\C#\classes\bin\Debug\netcoreapp2.2\classes.runtimeconfig.json
+C:\greenfox\BPAndrea\C#\classes\bin\Debug\netcoreapp2.2\classes.runtimeconfig.dev.json
+C:\greenfox\BPAndrea\C#\classes\bin\Debug\netcoreapp2.2\classes.dll
+C:\greenfox\BPAndrea\C#\classes\bin\Debug\netcoreapp2.2\classes.pdb
+C:\greenfox\BPAndrea\C#\classes\obj\Debug\netcoreapp2.2\classes.csprojAssemblyReference.cache
+C:\greenfox\BPAndrea\C#\classes\obj\Debug\netcoreapp2.2\classes.csproj.CoreCompileInputs.cache
+C:\greenfox\BPAndrea\C#\classes\obj\Debug\netcoreapp2.2\classes.AssemblyInfoInputs.cache
+C:\greenfox\BPAndrea\C#\classes\obj\Debug\netcoreapp2.2\classes.AssemblyInfo.cs
+C:\greenfox\BPAndrea\C#\classes\obj\Debug\netcoreapp2.2\classes.dll
+C:\greenfox\BPAndrea\C#\classes\obj\Debug\netcoreapp2.2\classes.pdb
