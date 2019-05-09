@@ -1,0 +1,11 @@
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\bin\Debug\netcoreapp2.2\Inheritance2GFA.deps.json
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\bin\Debug\netcoreapp2.2\Inheritance2GFA.runtimeconfig.json
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\bin\Debug\netcoreapp2.2\Inheritance2GFA.runtimeconfig.dev.json
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\bin\Debug\netcoreapp2.2\Inheritance2GFA.dll
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\bin\Debug\netcoreapp2.2\Inheritance2GFA.pdb
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\obj\Debug\netcoreapp2.2\Inheritance2GFA.csprojAssemblyReference.cache
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\obj\Debug\netcoreapp2.2\Inheritance2GFA.csproj.CoreCompileInputs.cache
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\obj\Debug\netcoreapp2.2\Inheritance2GFA.AssemblyInfoInputs.cache
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\obj\Debug\netcoreapp2.2\Inheritance2GFA.AssemblyInfo.cs
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\obj\Debug\netcoreapp2.2\Inheritance2GFA.dll
+C:\greenfox\BPAndrea\C#\Inheritance2GFA\obj\Debug\netcoreapp2.2\Inheritance2GFA.pdb
